@@ -1,0 +1,161 @@
+{
+	"PlayGameButton":"Play",
+	
+	"PickPerkHeader": "Pick a perk for this level",
+	"PickPerkSelectButton": "Select perk",
+	"PickPerkSkipButton": "Skip",
+	"PickPerkRewadButton": "You are out of perks!\nPerks are replenished daily.\nWatch a short rewarded video ad and get {val} more?",
+	
+	"SettingsShadows": "Shadows",
+	
+	"AmmoUpPerk": "Ammo Up",
+	"ArmorUpPerk": "Armor Up",
+	"BackwardsShotPerk": "Backwards Shot",
+	"DamageUpPerk": "Damage Up",
+	"FastBulletsPerk": "Fast Bullets",
+	"FireBulletsPerk": "Fire Bullets",
+	"MoreCoinsPerk": "More Coins",
+	"RagePerk": "Rage",
+	"ShootingSpeedPerk": "Shooting Speed",
+	"SideShotsPerk": "Side Shots",
+	"SlowEnemiesPerk": "Slow Enemies",
+	"SlowEnemyBulletsPerk": "Slow Enemy Bullets",
+	"ShortsightedEnemiesPerk": "Shortsighted Enemies",
+	"XRayVisionPerk": "X-Ray Vision",
+	
+	"AmmoUpPerkDescription": "Increase your tank's maximum ammo to keep firing longer.",
+	"ArmorUpPerkDescription": "Increase your tank's maximum armor to withstand more bullets.",
+	"BackwardsShotPerkDescription": "Fire backwards to hit enemies sneaking up behind you.",
+	"DamageUpPerkDescription": "Boost your weapon's damage to crush enemies faster.",
+	"FastBulletsPerkDescription": "Speed up your bullets to hit enemies before they react.",
+	"FireBulletsPerkDescription": "Set enemies ablaze with incendiary bullets.",
+	"MoreCoinsPerkDescription": "Collect more coins from defeated enemies and hidden loot.",
+	"RagePerkDescription": "Unleash extra damage when your tank is low on health.",
+	"ShootingSpeedPerkDescription": "Reduce shooting intervals for a rapid-fire barrage.",
+	"SideShotsPerkDescription": "Fire additional shots to the left and right, covering more ground.",
+	"SlowEnemiesPerkDescription": "Slow down enemy tanks to gain the upper hand.",
+	"SlowEnemyBulletsPerkDescription": "Reduce the speed of incoming enemy bullets.",
+	"ShortsightedEnemiesPerkDescription": "Reduce enemy vision, making it harder for them to spot you.",
+	"XRayVisionPerkDescription": "See through walls to plan your attacks with precision.",
+	
+	"LevelTargetTxt":"Level goal",
+	"LevelTargetDesc":"If a level has a level goal, the player must reach it",
+
+	"BulldozerTxt":"Bulldoze",
+	"BulldozerDesc":"Use this tool to quickly remove multiple custom elements from a map",
+	
+	"GraphicsModeSelectionHeader":"Select graphics mode",
+	"GraphicsModeSelectionBottomText":"you can switch between modes in the settings menu at any time",
+	"GraphicsModeSelectionClassicMode":"2D MODE",
+	"GraphicsModeSelection3DMode":"3D MODE",
+	
+	"BuyNow":"Buy Now",
+	"SpecialOffer":"Special Offer!",
+	"NoForcedAds":"No forced ads",
+	"UnlockAllEditorItems":"Unlock all level editor items",
+	"StarterPack":"Starter Pack!",
+	"HeadStart":"Get a head start!",
+	
+	
+"PrivateGameRegionHint":"make sure all players have the same region selected",
+"SettingsGraphicsMode":"Graphics mode",
+"ArcadeControlsAimingCone":"aiming cone",
+	"PlayerUpgradesEnabled":"player's tank upgrades are enabled",
+	"PlayerUpgradesDisabled":"player's tank upgrades are disabled",
+	
+"EditorItemSelectionNoUpgrades":"Using any of these elements will disable player's purchased upgrades for this level",
+
+"LevelCopyCreated":"A copy of previously uploaded level will be created",
+
+"LevelDeleteConfirmation": "Delete this level?",
+"EditorLevelSelectionHeader": "Your levels",
+"MainMenuOtherPlayersButton": "Players' levels",
+
+"Delay": "delay",
+"EditorControlledBombDesc": "remote controlled bomb",
+"EditorPressDesc": "Hydraulic press",
+
+"EditorMoveItemHeader": "Select new location for this item",
+
+"EditorBoulderDesc":"Boulder",
+
+"EditorLaserHazardDesc":"Laser wall",
+"LaserHazardDurationSelector":"Duration",
+
+"EditorTargetSelectHeader": "Select targets for: {val}",
+
+"PressInitialDelaySelector":"Initial delay",
+"PressIntervalSelector":"Interval",
+"PressSpeedSelector":"Speed",
+
+"LaserTargetToggle":"Toggle mode",
+"LaserTargetHold":"Hold mode",
+
+"ButtonTypeSimpleToggle":"Toggle button",
+"ButtonTypeHold":"Holdable button",
+"ButtonTypeStaysPressed":"One-time button",
+
+
+"EditorLaserShooterDesc" : "Laser gun",
+"LevelItemSetupHeader" : "Item settings",
+"EditorLaserMirrorDesc" : "Laser mirror",
+"LevelItemSetupRotatable" : "Rotatable",
+"LevelItemSetupMovable" : "Movable",
+"EditorLaserTargetDesc" : "Laser target",
+"LevelItemSetupCanDamageEnemies" : "Damages enemies",
+"LevelItemSetupCanDamagePlayer" : "Damages player",
+"EditorItemDeleteConfirmation" : "Delete item?",
+"EditorGameplayButtonDesc" : "Button",
+"EditorControlledGatesDesc" : "Controlled gate",
+"LevelItemSetupSelectTargets" : "Select targets",
+"LevelItemSetupResetTargets" : "Reset targets",
+"EditorPitfallDesc" : "Pitfall",
+"LevelItemSetupActiveAtStart" : "Active at start",
+
+
+
+
+
+"SettingsFancySmileys": "Enemy emojis",
+
+"PrivateGameCreated": "The game has been successfully created!\nOther players must enter your game id: {val} and tap \"join game\" button.\n\nYour region is: {reg}. Make sure other players choose the same region.",
+
+"CloudMenuSaveGame":"save game",
+"CloudMenuLoadGame":"load game",
+
+
+"SettingsGlowEffect": "Glow effect",
+
+"UpgradeFlamethrowerHeaderTxt":"Flamethrower",
+"UpgradeFlamethrowerPurchasedDescriptionTxt":"Increase your flamethrower damage and maximum ammo",
+"UpgradeFlamethrowerUnpurchaseeDescriptionTxt":"Set enemy tanks on fire!",
+"EditorItemDescriptionWoodblock":"Wooden block",
+"EditorSpawner11Desc":"Level 11 spawner",
+"EnemyTank11Desc":"Flamethrower tank",
+"EnemyBoss11Desc":"Flamethrower boss",
+"EnemyTurret11Desc":"Flamethrower turret",
+
+"TutorialBonusFreeze":"Freeze bonus",
+"TutorialBonusRepairUnit":"Repair unit bonus",
+"EditorItemDescriptionBomb":"Bomb bonus",
+"TutorialBonusRevealMap":"Reveal map bonus",
+"TutorialBonusDoubleDamage":"Double damage bonus",
+"TutorialBonusCloak":"Invisibility bonus",
+
+
+
+"BonusShotgunAmmo":"Shotgun ammo",
+"BonusRicochetAmmo":"Ricochet ammo",
+"BonusBlasterAmmo":"Blaster ammo",
+"BonusPrismAmmo":"Prism ammo",
+"BonusMinigunAmmo":"Minigun ammo",
+"BonusCannonAmmo":"Cannon ammo",
+"BonusHomingMissileAmmo":"Homing missiles ammo",
+"BonusLaserAmmo":"Laser ammo",
+"BonusGuidedMissileAmmo":"Guided missiles ammo",
+"BonusRailgunAmmo":"Railgun ammo",
+"BonusMinesAmmo":"Mines ammo",
+"BonusFlamethrowerAmmo":"Flamethrower ammo",
+
+
+"MultiplayerStartingGame":"Starting game","MultiplayerPlayerSettings":"Player settings","MpRewardNonWinner":"The match is over","MpRewardWinner":"Awesomesauce! First place!","PrvRIDOnlyNumbers":"use only numbers","MpAmountComment":"Multiplayer winnings amount depend on your current campaign progress","ForceStartIn":"The game will auto start in: {val}","PlsUpdateGame":"Please update the game.","TimporarilyDisabled":"Temporarily disabled","MultiplayerDisabled":"Multiplayer is temporarily disabled. There is something we have to work on. Just a bit more time. Thank you!","CheckInternetConnection":"Check internet connection and retry","MultiplayerRoomExists":"A room with this ID already exists","MultiplayerRoomDoesNotExist":"There is no game with ID \"{val}\".\n\nMake sure you have the same region selected. The host can see their region in the top right corner of the screen.","CampaignButton":"Campaign","EditorButton":"Editor","PrivateLobbyNotReady":"Not every player is ready","PrivateLobbyKicked":"You have been removed by the game host","PrivateLobbyKick":"Kick","PrivateLobbyReady":"Ready","PrivateLobbyStart":"Start the game","MultiplayerRoomIDValidationWrongChars":"The room name can only contain letters and numbers in English","MultiplayerRoomIDValidationMaxLength":"The room name must not exceed {val} characters in length","MultiplayerRoomIDValidationMinLength":"The room name must not be shorter than {val} characters","MultiplayerJoinGame":"Join game","MultiplayerCreateGame":"Create game","MultiplayerEnterGameID":"Enter the game ID","MultiplayerMatchResultsScore":"Score","MultiplayerMatchResultsPlayer":"Player","MultiplayerDisconnected":"Something went wrong, sorry about that.","MultiplayerMatchResultsHeader":"Match results","MultiplayerWaitingForPlayers":"Waiting for players","MultiplayerJoiningGame":"Looking for a game to join...","MultiplayerModesComingSoon":"More modes coming soon!","MultiplayerReportProblem":"Report multiplayer problem","MultiplayerPrivateGame":"Play with friends","MultiplayerGlobalGame":"Skirmish","MultiplayerSettingsHeader":"Multiplayer","AuthDialogCheckConnection":"Please check internet connection.","AuthDialogWaitingServer":"Please wait...","AuthDialogWaitingSocial":"Logging in...","AuthDialogLoginRequiredSocialService":"Login with {val} is required. Proceed with login?","PlayerJoined":"Player {val} has joined the game","PlayerDisconnected":"Player {val} has disconnected","SpeedUpgLevel":"Lvl {val} speed upgrade","ArmorUpgLevel":"Lvl {val} armor upgrade","FailedSocialLogin":"Failed to sign in to {servicename}","SettingsEnemiesVision":"Show enemies' vision","WeaponSelectTutorSimpleControls":"tap to select weapon","NewTutorTapToMove":"tap anywhere to drive there","NewTutorTapToShoot":"tap any target to attack","ControlsSettingsArcadeControls":"arcade controls","ControlsSettingsStrategyControls":"strategy controls","TapControlsDrawPath":"draw path","ControlsSettingsStrategyControlsExplanation":"tap anywhere to drive or attack","ControlsSettingsArcadeControlsExplanation":"virtual gamepad","LogInInitiatedMsg":"Logging in","SuccessfulSocialLogin":"Successful login","SettingsLockCenter":"Lock Center","ReviveTankHeader":"Repair tank?","ReviveTankDescription":"watch rewarded video ad to repair your tank","ReviveTankWatchVideo":"watch video","FreeWeapon":"Free weapon!","DeleteDataConfirmation":"Are you sure you want to delete your data? This includes saved game data.","PrivacySettings":"Privacy Settings","DeleteMyData":"Delete data","PersonalizedAds":"personalized ads","NonPersonalizedAds":"non-personalized ads","GDPRHeader":"Before we start","GDPRDescription":"To start popping tanks you must accept our terms of service.","GDPRTermsOfService":"Terms of Service","GDPRTapToRead":"(tap here to read)","GDPRAccept":"Accept","AgeSelectionContinue":"Continue","SelectBirthYear":"Select your year of birth","ControlsSettingsReset":"reset settings","ShareLevelPrefix":"Play my level for \"Awesome Tanks\"!","ShareLevelName":"Level name is {levelname}.","ShareLevelId":"Enter level number {levelId} in players' levels menu to play.","ShareLevelDownload":"Install the game:","ShareGeneral":"Play \"Awesome Tanks\"!","SavegameFailed":"Failed to save game. There may be not enough space available on your device.","RewadCoinsMultiplierText":"WATCH VIDEO AD AND GET x{multiplier} COINS!","CantPlacePortalMaxReached":"Maximum number of portals reached.","ColorPickerHeaderBody":"Body","ColorPickerHeaderTurret":"Turret","PrivacyPolicy":"Privacy Policy","EnableAutosave":"Autosave","EnableAutosaveDescription":"Autosave works only if current progress is better than cloud progress.","SocialAuthInProgress":"Please wait, {servicename} login is in progress.","TankColors":"Tank coloring","FeedbackConfirmation":"Contact support?","UserlevelsPeriodWeekly":"Weekly","UserlevelsPeriodMonthly":"Monthly","ConfirmLevelReport":"Is something wrong with this level?","ThanksForLevelReport":"Thanks for letting us know.","YouHaveReceivedCoins":"You have received coins: ","LevelsCompletedOverride":"Levels completed was set to: ","LanguageButton":"Language","PromoHeader":"Limited Offer!","PromoDesc":"Get double coins in shop!","NonIntLevelIdTextError":"Enter level id as an integer number.","CloudSaveTutorial":"Save your progress in the cloud! You will not lose it and will be able to continue where you left off on another device. Tap the cloud button!","LogInToSocialServices":"Log in to be able to save game to the cloud and set highscores!","UnknownItemsUpdateGame":"An error occured: unknown level items found.\nPlease update the game.","FeedbackThankYou":"Thanks for your feedback!","FeedbackError":"Something went wrong...\nTry again later.","EmptyFeedback":"Please enter some feedback text","FeedbackTextPlaceholder":"Type here...","FeedbackHeader":"Let us know what you think!","Purchased":"Purchased","NewUpgradesAvailable":"NEW UPGRADES AVAILABLE!","ConfirmExitGame":"Quit game?","SuccessfulAttampts":"successful attempts","LevelListLoadingItemText":"Loading","LoadingUserLevels_Hardest":"Loading\nhardest levels","LoadingUserLevels_Latest":"Loading\nlatest levels","LoadingUserLevels_MostLiked":"Loading\nmost liked levels","LoadingUserLevels_MostPlayed":"Loading\nmost played levels","LoadingUserLevels_Random":"Loading\nrandom levels","LoadingUserLevels_My":"Loading\nyour levels","PrizeReady":"READY!","SettingsShowGamepads":"Show gamepads","SettingsHeader":"Settings","SettingsAutoaim":"Auto aim","SettingsSensitivity":"Sensitivity","SettingsScreenShake":"Screen shake","SettingsScreenFlashes":"Screen flashes","SettingsEngineSound":"Engine sound","SettingsFancyExplosions":"Fancy explosions","SettingsAutoaimOffCoinsPercentage":"+{0}% coins\nif turned off","SettingsControls":"Controls","ControlsSettingsControlsType":"controls type","ControlsSettingsDynamicControls":"dynamic","ControlsSettingsStaticControls":"static","ControlsSettingsDynamicControlsExplanation":"centers where tapped","ControlsSettingsStaticControlsExplanation":"static center","ControlsSettingsRecommended":"(recommended)","ControlsSettingsStaticCenters":"Position","StatiControlsSettingsHeader":"Static controls settings","StatiControlsSettingsDescription":"Tap respective areas to setup centers","DevelopedBy":"Developed by","MusicBy":"Music by","FontsUsed":"Fonts used","TutorialBonusCrate":"bonus crate","TutorialBarrel":"explosive barrel","TutorialBonusFreeze":"freeze enemies","TutorialBonusRevealMap":"reveal map","TutorialBonusCloak":"cloak bonus","TutorialBonusDoubleDamage":"double damage","TutorialBonusRepairUnit":"repair unit","TutorialBonusAmmo":"ammo bonus","TutorialBlocks":"destroy these blocks","TutorialSpawner":"destroy spawner","TutorialCoins":"collect coins to buy upgrades","MoveTutorialHeader":"MOVE AREA","MoveTutorialDescr":"tap and drag here to move","AutoaimTutorialHeader":"AUTO AIM","AutoaimTutorialDescr":"TAP, HOLD and DO NOT MOVE your finger","ShootTutorialHeader":"SHOOT AREA","ShootTutorialDescr":"tap and drag here to shoot","StaticMoveTutorialHeader":"MOVEMENT","StaticMoveTutorialDescr":"use left joystick","StaticAutoaimTutorialHeader":"AUTO AIM","StaticAutoaimTutorialDescr":"hold right joystick center","StaticShootTutorialHeader":"SHOOTING","StaticShootTutorialDescr":"use right joystick","GameplayUICombo":" COMBO","GameplayUIProfit":" PROFIT","WeaponSelectTutor":"hold to\nselect\nweapon","UpgradeArmorTutorial":"do not forget\nto upgrade\narmor!","UpgradeMachinegunTutorial":"tap here\nto upgrade\nmachinegun!","PrizeTutorialMsg":"Oh look!\nYour prize\nis ready!","ArenaLockedMessage":"Complete more\nlevels to unlock\nthis mode","ArenaUnlockedText":"Earn more coins on arena levels! Each time you play, new random level is generated for you. Enemies on these levels give you 25% more coins!","MoreLevelsSoonText":"Coming soon! Meanwhile, check other players' levels!","SurvivalLockedMessage":"Complete more\nlevels to unlock\nthis mode","RestorePurchasesText":"RESTORE\nPURCHASES","PurchasesRemoveAdsText":"any in-app purchase removes interstitial ads","NewAchievementText":"NEW\nACHIEVEMENT!","ShopHeaderText":"Coins","AchievementsHeaderText":"Achievements","LevelSelectHeaderText":"Select Level","UpgradesCoinsText":"Coins","UpgradesWeaponsText":"Weapons","UpgradesTankText":"Tank","LogInToText":"Log in to ","ToViewLeaderboardsText":"to view leaderboards","LogInText":"Log in","WatchShortVideoForText":"Watch short video advertisement for","CoinsNom":"COIN","CoinsGen":"COINS","CoinsPlu":"COINS","CoinsSingle":"COIN","GameplaysNom":"play","GameplaysGen":"plays","GameplaysPlu":"plays","GameplaysSingle":"play","LikesNom":"like","LikesGen":"likes","LikesPlu":"likes","LikesSingle":"like","UpgradeSpeedHeaderTxt":"Speed","UpgradeSpeedDescriptionTxt":"Upgrade tank speed to move around faster!","UpgradeArmorHeaderTxt":"Armor","UpgradeArmorDescriptionTxt":"Upgrade tank armor to sustain more damage!","UpgradeMachinegunHeaderTxt":"Machinegun","UpgradeMachinegunDescriptionTxt":"Increase your machinegun damage with this upgrade!","UpgradeShotgunHeaderTxt":"Shotgun","UpgradeShotgunPurchasedDescriptionTxt":"Increase your shotgun damage and ammo count with this upgrade!","UpgradeShotgunUnpurchaseeDescriptionTxt":"Spread the damage you deal to a greater degree!","UpgradeMinigunHeaderTxt":"Minigun","UpgradeMinigunPurchasedDescriptionTxt":"Increase your minigun damage and ammo count with this upgrade!","UpgradeMinigunUnpurchaseeDescriptionTxt":"Shred your enemies to pieces with this weapon!","UpgradeCannonHeaderTxt":"Cannon","UpgradeCannonPurchasedDescriptionTxt":"Increase your cannon damage and ammo count with this upgrade!","UpgradeCannonUnpurchaseeDescriptionTxt":"Shatter enemy tanks with explosive shells!","UpgradeHomingMslHeaderTxt":"Homing Missiles","UpgradeHomingMslPurchasedDescriptionTxt":"Increase your homing missiles damage and ammo amount with this upgrade!","UpgradeHomingMslUnpurchaseeDescriptionTxt":"Hit your enemies from behind the cover. It's hard to hide from these!","UpgradeMinesHeaderTxt":"Mines","UpgradeMinesPurchasedDescriptionTxt":"Increase your mines damage and amount count with this upgrade!","UpgradeMinesUnpurchaseeDescriptionTxt":"Lure them to your tricky little mines and watch them explode!","UpgradeGuidedMslHeaderTxt":"Guided Missiles","UpgradeGuidedMslPurchasedDescriptionTxt":"Increase your guided missiles damage and amount with this upgrade!","UpgradeGuidedMslUnpurchaseeDescriptionTxt":"Your tactical weapon. Troll your enemies from around the corner with these controllable missiles!","UpgradeLaserHeaderTxt":"Laser","UpgradeLaserPurchasedDescriptionTxt":"Increase your laser damage and ammo with this upgrade!","UpgradeLaserUnpurchaseeDescriptionTxt":"Burn holes through their armor and melt them into puddles!","UpgradeRailgunHeaderTxt":"Railgun","UpgradeRailgunPurchasedDescriptionTxt":"Increase your railgun damage and ammo with this upgrade!","UpgradeRailgunUnpurchaseeDescriptionTxt":"Ever wanted to pop several tanks with one shot? Well you can do it with this little toy!","UpgradeRicochetHeaderTxt":"Ricochet","UpgradeRicochetPurchasedDescriptionTxt":"Improve ricochet bounce count, damage and ammo!","UpgradeRicochetUnpurchaseeDescriptionTxt":"Use this weapon for your tactical superiority!","UpgradeTripleHeaderTxt":"Blaster","UpgradeTriplePurchasedDescriptionTxt":"Improge your blaster damage and ammo count!","UpgradeTripleUnpurchaseeDescriptionTxt":"Works great against swarms of tanks!","UpgradeShockerHeaderTxt":"Prism","UpgradeShockerPurchasedDescriptionTxt":"Improve prism damage, ammo and light ray length!","UpgradeShockerUnpurchaseeDescriptionTxt":"Bounce a devastating light on multiple enemies at once!","TankBankNameText":"Bank O'Tank","ShopDoubleCoinsText":"Double coins!","ThankYouText":"Thank You","ForYourPurchaseText":"For your purchase!","PurchaseFailedText":"Sorry, something went wrong. Purchase did not complete.","TankmanTipText1":"Roll an explosive barrel to an enemy while hiding behind it!","TankmanTipText2":"You can hide in bushes. Enemies cannot see you there unless they drive really close.","TankmanTipText3":"Control guided missiles like you drive your tank. Fire them from far away to remain unseen.","TankmanTipText4":"Weapon upgrades give you more ammo and increase damage.","TankmanTipText5":"TAP and HOLD shooting thumb to engage autoaim!","TankmanTipText6":"If you disable autoaim in settings you will earn {0} more coins!","TankmanTipText8":"Sometimes levels contain secret rooms full of coins. Pay attention to concrete walls!","TankmanTipText9":"Try destroying enemy spawners before they spawn all enemies.","TankmanTipText10":"Avoid open fights with enemies in narrow corridors and small rooms. Lure them out and pop them in open spaces!","TankmanTipText11":"Try avoiding direct fights with railgun and laser equipped enemies. Scout them and shoot from behind cover!","TankmanTipText12":"Do not just stand when fighting. Roll all over the place and around enemies! *signs* You spin me right round...","TankmanTipText13":"If you fired guided missile tap shooting area again to explode it in the air if you want.","TankmanTipText14":"There is a special tank that appears only in arena mode. It requires special treatment to get the most out of it.","TankmanTipText15":"You can turn off gamepads display in settings menu.","TankmanTipText16":"Do not forget to save to the cloud from main menu!","TankmanTipText17":"Higher levels will gain you way more coins!","TankmanTipText18":"You can fine-tune controls in settings menu.","TankmanTipText19":"Use guided missiles to take out hard enemies.","PleaseRateOurGameText":"Please rate our game!","FeedbackMeansALotText":"Your feedback means a lot to us, really!","DontAskAgainText":"don't ask again","LevelsCompleteAwesomeText":"Awesome!","AllLevelsCompleteText":"All levels complete!","LevelsCompleteBottomText":"Earn more money for future upgrades in Arena levels!","EditorSceneryButtonTxt":"scn","EditorCompleteToShare":"Complete your level first to share it!","EditorStartingPointNotSpecified":"Player start point is not specified.","EditorCongratsWon":"Congratulations! You won!","EditorAddEnemies":"Now try adding enemies or a level goal.","EditorTooManyEnemies":"Too many enemies, framerate may be low.","EditorProceedTesting":"Proceed to testing?","EditorDrawMode":"Draw mode","EditorScrollMode":"Scroll mode","EditorClearLevel":"Clear level?\nAll current level data will be erased.","EditorItemDescription1":"Level 1 spawner","EditorItemDescription2":"Level 2 spawner","EditorItemDescription3":"Level 3 spawner","EditorItemDescription4":"Level 4 spawner","EditorItemDescription5":"Level 5 spawner","EditorItemDescription6":"Level 6 spawner","EditorItemDescription7":"Level 7 spawner","EditorItemDescription8":"Machinegun turret","EditorItemDescription9":"Shotgun turret","EditorItemDescription10":"Minigun turret","EditorItemDescription11":"Cannon turret","EditorItemDescription12":"Homing missile turret","EditorItemDescription13":"Laser turret","EditorItemDescription14":"Railgun turret","EditorItemDescription15":"Machinegun boss","EditorItemDescription16":"Shotgun boss","EditorItemDescription17":"Minigun boss","EditorItemDescription18":"Cannon boss","EditorItemDescription19":"Homing missile boss","EditorItemDescription20":"Laser boss","EditorItemDescription21":"Railgun boss","EditorItemDescription22":"Wall","EditorItemDescription23":"Reinforced wall","EditorItemDescription24":"Indestructible wall","EditorItemDescription25":"Secret wall block","EditorItemDescription26":"Gates wall","EditorItemDescription27":"Clear","EditorItemDescription28":"Bonus crate","EditorItemDescription29":"Explosive barrel","EditorItemDescription30":"Player start","EditorItemDescription31":"Bush","EditorItemDescription32":"Machinegun tank","EditorItemDescription33":"Shotgun tank","EditorItemDescription34":"Minigun tank","EditorItemDescription35":"Cannon tank","EditorItemDescription36":"Homing tank","EditorItemDescription37":"Laser tank","EditorItemDescription38":"Railgun tank","EditorItemDescription39":"Ricochet tank","EditorItemDescription40":"Blaster tank","EditorItemDescription41":"Prism tank","EditorItemDescription42":"Ricochet boss","EditorItemDescription43":"Blaster boss","EditorItemDescription44":"Prism boss","EditorItemDescription45":"Ricochet turret","EditorItemDescription46":"Blaster turret","EditorItemDescription47":"Prism turret","EditorItemDescription48":"Level 8 spawner","EditorItemDescription49":"Level 9 spawner","EditorItemDescription50":"Level 10 spawner","EditorItemDescription51":"RC Demo Truck","EditorItemDescription52":"Portal","EditorResizeHeader":"Resize level","EditorResizeHeight":"height: ","EditorResizeWidth":"width: ","EditorSceneryHeader":"Select scenery","EditorSummer":"Summer","EditorDesert":"Desert","EditorWinter":"Winter","EditorItemSelectionHeader":"Select item","TankBankDescriptionTxt":"Get double coins! Remove interstitial ads! Upgrade your Tank and weapons faster!","PrizePerfectUnboxing":"PERFECT UNBOXING!","PrizeAwesome":"AWESOME!","PrizeOuch":"OUCH!","PrizeGreat":"GREAT!","PrizeNice":"NICE!","RewadSelectPrizeBox":"Select your prize box!","RewadSomethingWrong":"Something went wrong with the ad. We are sorry about that.","RewadDoNotSkip":"Please do not skip rewarded video ad to get your bonus.","RewadPretendNotSkip":"Lets all pretend you did not skip it this time!","RewadDoubleAwesomeness":"Double Awesomeness!","MessageNewEditorItemsAvailable":"New level editor\nitems available!","MessageToEnableGameSaving":"to enable game saving.","MessageYouHaveReceivedAnItem":"You have received an item:","EditorItemLockedTxt":"Complete more levels to unlock this item.\nAny in-app purchase unlocks everything!","MessageEnterPlayerName":"Please enter player name.","MessageEnterLevelName":"Please enter level name.","MessageEnterLevelID":"Please enter level ID.","MessageCloudLoadSuccess":"Load successful!","MessageCloudLoadFailed":"Loading failed. Possible reasons:\nMissing internet connection.\nOutdated game version. Check updates.","MessageCloudSaveSuccess":"Save successful!","MessageCloudSaveFailed":"Saving failed.\nCheck your internet connection.","MessageCloudSaveTimeout":"Sorry, something went wrong.","CloudProcessingDataTxt":"processing data...","CloudMenuHeader":"Cloud backup","CloudNotAvailebleTxt":"Not available","LoadUserLevelHeader":"Load user level","EnterLevelIDTxt":"Enter level ID:","LevelIDPlaceholderTxt":"Level ID...","LoadingCustomLevelTxt":"Loading custom user level","LoadingCustomFailed":"Loading level for given ID failed.","LoadingCustomIncompatible":"Incompatible level. Please check available updates.","LoadingCustomNoLevelForID":"Loading level for given ID failed.","LoadingLevelInfo":"Loading","CustomLevelWasPlayed":"Play count: ","CustomLevelWasNeverPlayed":"Be the first to play this level!","OwnCustomLevelWasNeverPlayed":"Nobody played this level yet.","CustomLevelPercentSuccessful":"{0}% successful attempts.","UploadLevelHeader":"Uploading Level","UploadLevelDescTxt":"Enter level info:","EnterNamePlaceholder":"Enter your name...","EnterLevelNamePlaceholder":"Enter level name...","LevelUploadFailTxt":"An error occured. Please try again later.","LevelUploadCompleteTxt":"Uploading complete!","LevelIDIsTxt":"Level ID is: ","CloudLoadConfirmation":"Load cloud save data?\nCurrent progress will be overwritten","CloudSaveConfirmation":"Save data to cloud?\nCloud progress will be overwritten","AchievementsHeader":"Achievements","TapAchievementForDetails":"Tap achievement to view details.","AchievementHeader1":"Tanks Destroyer","AchievementDescr1":"Destroy enemy tanks to earn this achievement!","AchievementHeader2":"Awesome Combo!","AchievementDescr2":"Perform great combos to earn this achievement!","AchievementHeader3":"Barrels Popper","AchievementDescr3":"Blast more explosive barrels to earn this achievement!","AchievementHeader4":"Bonus Hunter","AchievementDescr4":"Crash more bonus crates to earn this achievement!","AchievementHeader5":"Cha Ching!","AchievementDescr5":"Collect more coins to earn this achievement!","AchievementHeader6":"Missile Troll!","AchievementDescr6":"Troll more enemies with your guided missiles to earn this achievement!","AchievementHeader7":"Missile Avoider","AchievementDescr7":"Dodge enemy homing rockets to earn this achievement!","AchievementHeader8":"Winner","AchievementDescr8":"Complete more levels (any mode) to earn this achievement!","AchievementHeader9":"Marksman","AchievementDescr9":"Finish level with great accuracy to earn this achievement!","AchievementHeader10":"Minelayer","AchievementDescr10":"Lure more enemies to your mines to earn this achievement!","AchievementHeader11":"Piercer","AchievementDescr11":"Pop many enemies with one railgun shot to earn this achievement!","AchievementHeader12":"Exterminator","AchievementDescr12":"Destroy enemy spawners to earn this achievement!","AchievementHeader13":"Survivor","AchievementDescr13":"Complete any level with lowest possible amount of HP to earn this achievement!","AchievementHeader14":"Killing Time","AchievementDescr14":"Spend more time playing Awesome Tanks to earn this achievement!","AchievementHeader15":"Turret Destroyer","AchievementDescr15":"Destroy more enemy turrets to earn this achievement!","AchievementHeader16":"Devastator","AchievementDescr16":"Destroy more level scenery to earn this achievement!","ObjectiveCompleteTxt":"Objective complete!","ObjectiveType1":"Collect coins","ObjectiveType2":"Destroy bricks","ObjectiveType3":"Destroy crates","ObjectiveType4":"Destoy enemy spawners","ObjectiveType5":"Destroy enemy tanks","ObjectiveType6":"Destroy enemy towers","ObjectiveType7":"Destroy explosive barrels","PausedText":"PAUSED","ProfitCaps":"PROFIT","LevelCompleteText":"LEVEL COMPLETE","GameOverText":"GAME OVER","NewLevelComplete":"NEW LEVEL COMPLETE","LevelFailed":"YOUR TANK IS DESTROYED","LVPrefix":"Lv","StatTip1Pt1":"You have exploded {0} barrels!","StatTip2Pt1":"Your best combo length is {0}!","StatTip3Pt1":"You have destroyed {0} bonus crates!","StatTip4Pt1":"You have collected {0} coins!","StatTip5Pt1":"You have dodged {0} enemy rockets!","StatTip6Pt1":"You have destroyed {0} enemy spawners!","StatTip7Pt1":"You have destroyed {0} enemy tanks!","StatTip8Pt1":"You have destroyed {0} stationary enemy towers!","FailoverTip":"What an awesome day to pop some tanks!","SurvivalKillsTxt":"TANKS DESTROYED: ","CustomLevelPlayedId":"Level ID: ","SurvivalUnlockedHeader":"Survival mode unlocked!","SurvivalUnlockedDescr":"Fight your way through infinite enemies and see how long you can survive!","ArenaUnlockedHeader":"Arena mode unlocked!","CheckOutNewUserLevelsMenu":"Check out new user levels menu!","UserLevelsAPIErrorMsg":"Whoops! Something went wrong.\nPlease try again later.","UserLevelsNoOwnLevelsMsg":"You did not upload any levels.","UserLevelsMenuHeader":"User levels","APIErrorMessage":"Something went wrong.\nPlease try again later.","SuccessfulVoteMsg":"Thanks for voting!","AlreadyVotedMsg":"You have already voted\nfor this level.","RewadNotAvailable":"Video ad is not available yet!"}

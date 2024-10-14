@@ -1,0 +1,152 @@
+{
+	"PlayGameButton": "게임 시작",
+	
+	"PickPerkHeader": "이 레벨에서 특전을 선택하세요",
+	"PickPerkSelectButton": "특전 선택",
+	"PickPerkSkipButton": "건너뛰기",
+	"PickPerkRewadButton": "특전이 다 떨어졌습니다!\n특전은 매일 보충됩니다.\n짧은 보상 광고를 보고 {val}개 더 받으시겠습니까?",
+
+	
+	"SettingsShadows": "그림자",
+	
+	"AmmoUpPerk": "탄약 증가",
+	"ArmorUpPerk": "방어력 증가",
+	"BackwardsShotPerk": "후방 사격",
+	"DamageUpPerk": "데미지 증가",
+	"FastBulletsPerk": "고속 탄환",
+	"FireBulletsPerk": "화염 탄환",
+	"MoreCoinsPerk": "코인 증가",
+	"RagePerk": "분노",
+	"ShootingSpeedPerk": "사격 속도 증가",
+	"SideShotsPerk": "측면 사격",
+	"SlowEnemiesPerk": "적 느리게 하기",
+	"SlowEnemyBulletsPerk": "적 탄환 느리게 하기",
+	"ShortsightedEnemiesPerk": "적 시야 축소",
+	"XRayVisionPerk": "투시 능력",
+	
+	"AmmoUpPerkDescription": "전차의 최대 탄약을 늘려 더 오래 발사하세요.",
+	"ArmorUpPerkDescription": "전차의 방어력을 높여 더 많은 공격을 견뎌내세요.",
+	"BackwardsShotPerkDescription": "후방으로도 발사하여 다가오는 적을 제압하세요.",
+	"DamageUpPerkDescription": "무기의 데미지를 증가시켜 적을 빠르게 무찌르세요.",
+	"FastBulletsPerkDescription": "탄환 속도를 높여 적을 재빠르게 공격하세요.",
+	"FireBulletsPerkDescription": "화염 탄환으로 적을 불태우세요.",
+	"MoreCoinsPerkDescription": "처치한 적과 숨겨진 전리품에서 더 많은 코인을 획득하세요.",
+	"RagePerkDescription": "전차의 체력이 낮을 때 추가 데미지를 발휘하세요.",
+	"ShootingSpeedPerkDescription": "사격 간격을 줄여 빠른 연사력을 발휘하세요.",
+	"SideShotsPerkDescription": "좌우로도 발사하여 더 넓은 범위를 커버하세요.",
+	"SlowEnemiesPerkDescription": "적 전차의 속도를 늦춰 우위를 점하세요.",
+	"SlowEnemyBulletsPerkDescription": "적의 탄환 속도를 느리게 하세요.",
+	"ShortsightedEnemiesPerkDescription": "적의 시야를 줄여 당신을 더 어렵게 발견하게 하세요.",
+	"XRayVisionPerkDescription": "벽을 투시하여 정확하게 공격 계획을 세우세요.",
+	
+	"LevelTargetTxt":"레벨 목표",
+	"LevelTargetDesc":"레벨에 레벨 목표가 있는 경우 플레이어는 이를 달성해야 합니다.",
+
+	"BulldozerTxt":"불도저",
+	"BulldozerDesc":"이 도구를 사용하면 지도에서 여러 맞춤 요소를 빠르게 제거할 수 있습니다.",
+	
+	"GraphicsModeSelectionHeader":"그래픽 모드 선택",
+"GraphicsModeSelectionBottomText":"언제든지 설정 메뉴에서 모드 간에 전환할 수 있습니다.",
+"GraphicsModeSelectionClassicMode":"2D 모드",
+"GraphicsModeSelection3DMode":"3D 모드",
+	
+	"BuyNow":"지금 구매",
+		"SpecialOffer":"특별 제안!",
+"NoForcedAds":"강제 광고 없음",
+"UnlockAllEditorItems":"모든 레벨 편집기 항목 잠금 해제",
+"StarterPack": "스타터 팩!",
+"HeadStart":"앞서 출발하세요!",
+	
+"PrivateGameRegionHint":"모든 플레이어가 동일한 지역을 선택했는지 확인하십시오.",
+"SettingsGraphicsMode":"그래픽 모드",
+"ArcadeControlsAimingCone":"조준 표시 콘",
+	"PlayerUpgradesEnabled":"플레이어의 탱크 업그레이드가 활성화되었습니다",
+	"PlayerUpgradesDisabled":"플레이어의 탱크 업그레이드가 비활성화되었습니다.",
+	
+"EditorItemSelectionNoUpgrades":"이러한 요소를 사용하면 이 레벨에 대해 플레이어가 구매한 업그레이드가 비활성화됩니다.",
+
+"LevelCopyCreated":"이전에 업로드한 레벨의 사본이 생성됩니다.",
+
+"LevelDeleteConfirmation": "이 수준을 삭제하시겠습니까?",
+"EditorLevelSelectionHeader": "귀하의 수준",
+"MainMenuOtherPlayersButton": "플레이어 레벨",
+
+"Delay": "지연",
+"EditorControlledBombDesc": "원격 제어 폭탄",
+"EditorPressDesc": "유압 프레스",
+	"EditorMoveItemHeader": "새 위치 선택",
+	
+"EditorBoulderDesc":"둥근 돌",
+
+"EditorLaserHazardDesc":"레이저 벽",
+"LaserHazardDurationSelector": "지속 시간",
+
+"EditorTargetSelectHeader": "대상 선택: {val}",
+
+"PressInitialDelaySelector": "초기 지연",
+"PressIntervalSelector": "간격",
+"PressSpeedSelector": "속도",
+
+"LaserTargetToggle": "토글 모드",
+"LaserTargetHold": "홀드 모드",
+
+"ButtonTypeSimpleToggle": "토글 버튼",
+"ButtonTypeHold": "보류 가능 버튼",
+"ButtonTypeStaysPressed": "일회성 버튼",
+	
+"EditorLaserShooterDesc": "레이저 건",
+"LevelItemSetupHeader": "항목 설정",
+"EditorLaserMirrorDesc": "레이저 미러",
+"LevelItemSetupRotatable": "회전 가능",
+"LevelItemSetupMovable": "이동 가능",
+"EditorLaserTargetDesc": "레이저 타겟",
+"LevelItemSetupCanDamageEnemies": "적에게 피해를 입 힙니다",
+"LevelItemSetupCanDamagePlayer": "플레이어 피해",
+"EditorItemDeleteConfirmation": "항목을 삭제 하시겠습니까?",
+"EditorGameplayButtonDesc": "버튼",
+"EditorControlledGatesDesc": "제어 된 게이트",
+"LevelItemSetupSelectTargets": "대상 선택",
+"LevelItemSetupResetTargets": "대상 재설정",
+"EditorPitfallDesc": "함정",
+"LevelItemSetupActiveAtStart": "시작시 활성화",
+	
+"SettingsFancySmileys": "적 이모티콘",
+"PrivateGameCreated": "게임이 성공적으로 생성되었습니다!\n다른 플레이어는 귀하의 게임 ID: {val}을 입력하고 \"게임 참여\" 버튼을 탭해야 합니다.\n\n귀하의 지역은: {reg}입니다. 다른 플레이어가 동일한 지역을 선택하는지 확인하세요.",
+
+"CloudMenuSaveGame": "게임 저장",
+"CloudMenuLoadGame": "게임로드",
+
+"SettingsGlowEffect": "글로우 효과",
+
+"UpgradeFlamethrowerHeaderTxt": "화염 방사기",
+"UpgradeFlamethrowerPurchasedDescriptionTxt": "화염 방사기 피해량과 탄약 최대치 증가",
+"UpgradeFlamethrowerUnpurchaseeDescriptionTxt": "적 탱크에 불을 붙이세요!",
+"EditorItemDescriptionWoodblock": "나무 블록",
+"EditorSpawner11Desc": "레벨 11 적 기지",
+"EnemyTank11Desc": "탱크 : 화염 방사기",
+"EnemyBoss11Desc": "보스 : 화염 방사기",
+"EnemyTurret11Desc": "포탑 : 화염 방사기",
+
+"TutorialBonusFreeze": "보너스 : 고정",
+"TutorialBonusRepairUnit": "보너스 : 수리 장치",
+"EditorItemDescriptionBomb": "보너스 : 폭탄",
+"TutorialBonusRevealMap": "보너스 :지도 공개",
+"TutorialBonusDoubleDamage": "보너스 : 더블 데미지",
+"TutorialBonusCloak": "보너스 : 투명화",
+
+
+
+"BonusShotgunAmmo": "샷건 탄약",
+"BonusRicochetAmmo": "리코 셰 탄약",
+"BonusBlasterAmmo": "블래스터 탄약",
+"BonusPrismAmmo": "프리즘 탄약",
+"BonusMinigunAmmo": "미니건 탄약",
+"BonusCannonAmmo": "캐논 탄약",
+"BonusHomingMissileAmmo": "원격 미사일 탄약",
+"BonusLaserAmmo": "레이저 탄약",
+"BonusGuidedMissileAmmo": "유도 미사일 탄약",
+"BonusRailgunAmmo": "레일 건 탄약",
+"BonusMinesAmmo": "지뢰 탄약",
+"BonusFlamethrowerAmmo": "화염병 탄약",
+
+"MultiplayerStartingGame":"게임 시작","MultiplayerPlayerSettings":"플레이어 설정","MpRewardNonWinner":"경기가 끝났습니다","MpRewardWinner":"훌륭한! 처음!","PrvRIDOnlyNumbers":"숫자 만 사용","MpAmountComment":"멀티 플레이어 상금 금액은 현재 캠페인 진행 상황에 따라 다릅니다.","ForceStartIn":"게임이 자동 시작됩니다 : {val}","PlsUpdateGame":"게임을 업데이트하세요.","TimporarilyDisabled":"일시적으로 비활성화 됨","MultiplayerDisabled":"멀티 플레이어가 일시적으로 비활성화됩니다. 우리가해야 할 일이 있습니다. 조금만 더. 감사합니다!","CheckInternetConnection":"인터넷 연결을 확인하고 다시 시도하십시오.","MultiplayerRoomExists":"이 ID의 방이 이미 있습니다.","MultiplayerRoomDoesNotExist":"\"{val}\" ID의 게임이 없습니다.\n\n동일한 지역을 선택했는지 확인하세요. 호스트는 화면 오른쪽 상단에서 자신의 지역을 확인할 수 있습니다.","CampaignButton":"운동","EditorButton":"레벨 에디터","PrivateLobbyNotReady":"모든 플레이어가 준비된 것은 아닙니다.","PrivateLobbyKicked":"게임 호스트에 의해 제거되었습니다.","PrivateLobbyKick":"풀다","PrivateLobbyReady":"준비된","PrivateLobbyStart":"게임을 시작하다","MultiplayerRoomIDValidationWrongChars":"방 이름은 영어로 된 문자와 숫자 만 포함 할 수 있습니다.","MultiplayerRoomIDValidationMaxLength":"방 이름은 {val}자를 초과 할 수 없습니다.","MultiplayerRoomIDValidationMinLength":"방 이름은 {val} 자 이하 여야합니다.","MultiplayerJoinGame":"게임 참여","MultiplayerCreateGame":"게임 만들기","MultiplayerEnterGameID":"게임 ID를 입력하십시오","MultiplayerMatchResultsScore":"점수","MultiplayerMatchResultsPlayer":"플레이어","MultiplayerDisconnected":"문제가 발생했습니다. 죄송합니다.","MultiplayerMatchResultsHeader":"경기 결과","MultiplayerWaitingForPlayers":"플레이어를 기다리는 중","MultiplayerJoiningGame":"게임 참가","MultiplayerModesComingSoon":"더 많은 모드가 곧 출시됩니다!","MultiplayerReportProblem":"멀티 플레이어 문제 신고","MultiplayerPrivateGame":"친구들과 플레이","MultiplayerGlobalGame":"작은 접전","MultiplayerSettingsHeader":"멀티 플레이어","AuthDialogCheckConnection":"인터넷 연결을 확인하세요","AuthDialogWaitingServer":"잠시만 기다려주세요 ...","AuthDialogWaitingSocial":"로그인 중 ...","AuthDialogLoginRequiredSocialService":"{val}로 로그인해야합니다. 로그인을 계속 하시겠습니까?","PlayerJoined":"플레이어 {val}이 게임에 참여했습니다.","PlayerDisconnected":"플레이어 {val}의 연결이 끊어졌습니다.","SpeedUpgLevel":"Lvl {val} 속도 업그레이드","ArmorUpgLevel":"Lvl {val} 방어구 업그레이드","FailedSocialLogin":"{servicename}에 로그인하지 못했습니다.","SettingsEnemiesVision":"적의 시력 보이기","WeaponSelectTutorSimpleControls":"탭하여 무기를 선택하십시오","NewTutorTapToMove":"운전하려면 아무 곳이나 누르십시오","NewTutorTapToShoot":"공격 할 대상을 탭하십시오","ControlsSettingsArcadeControls":"아케이드 컨트롤","ControlsSettingsStrategyControls":"전략 컨트롤","TapControlsDrawPath":"경로를 그리다","ControlsSettingsStrategyControlsExplanation":"운전하거나 공격하려면 아무 곳이나 누르십시오","ControlsSettingsArcadeControlsExplanation":"가상 게임 패드","LogInInitiatedMsg":"로그인","SuccessfulSocialLogin":"성공적인 로그인","SettingsLockCenter":"중앙 잠금","ReviveTankHeader":"탱크를 수리할까요?","ReviveTankDescription":"보상용 광고 영상 보고 탱크 수리하기","ReviveTankWatchVideo":"동영상 보기","FreeWeapon":"무료 무기!","DeleteDataConfirmation":"데이터를 정말로 삭제하시겠습니까? 여기에는 저장된 게임 데이터가 포함됩니다.","PrivacySettings":"개인정보 설정","DeleteMyData":"데이터 지우기","PersonalizedAds":"맞춤 광고","NonPersonalizedAds":"맞춤화되지 않은 광고","GDPRHeader":"시작하기 전에","GDPRDescription":"탱크 터뜨리기를 시작하려면 당사 서비스 약관에 동의해야 합니다.","GDPRTermsOfService":"서비스 약관","GDPRTapToRead":"(여기를 탭하여 읽기)","GDPRAccept":"수락","AgeSelectionContinue":"계속","SelectBirthYear":"생년월일을 선택하세요.","ControlsSettingsReset":"설정 초기화","ShareLevelPrefix":"제가 만든 '어썸 탱크' 레벨을 플레이해보세요!","ShareLevelName":"레벨 이름은 {levelname}입니다.","ShareLevelId":"플레이어 레벨 메뉴에 레벨 번호 {levelId}을(를) 입력해 플레이하세요.","ShareLevelDownload":"게임을 설치하세요:","ShareGeneral":"'어썸 탱크'를 플레이하세요!","SavegameFailed":"게임을 저장하지 못했습니다. 기기에 사용 가능한 공간이 부족할 수 있습니다.","RewadCoinsMultiplierText":"광고 영상을 보고 코인을 {multiplier}배 더 얻으세요!","CantPlacePortalMaxReached":"최대 포털 수에 도달했습니다.","ColorPickerHeaderBody":"몸체","ColorPickerHeaderTurret":"회전 포탑","PrivacyPolicy":"개인정보보호정책","EnableAutosave":"자동 저장","EnableAutosaveDescription":"자동 저장은 현재 진행률이 클라우드 진행률보다 나은 경우에만 작동합니다.","SocialAuthInProgress":"잠시만 기다려주세요. {servicename} 로그인이 진행 중입니다.","TankColors":"탱크 채색","FeedbackConfirmation":"지원팀에 문의하시겠습니까?","UserlevelsPeriodWeekly":"주간","UserlevelsPeriodMonthly":"월간","ConfirmLevelReport":"이 레벨에 문제가 있습니까?","ThanksForLevelReport":"알려주셔서 감사합니다.","YouHaveReceivedCoins":"코인을 받았습니다:","LevelsCompletedOverride":"완료된 레벨은 다음으로 설정되었습니다:","LanguageButton":"언어","PromoHeader":"한정 혜택!","PromoDesc":"상점에서 코인을 두 배로 받으세요!","NonIntLevelIdTextError":"레벨 ID를 정수로 입력하세요.","CloudSaveTutorial":"클라우드에서 진행 상황을 저장하세요! 진행 상황을 잃지 않고 다른 기기에서도 중단한 곳에서 플레이가 가능합니다. 구름 버튼을 탭하세요!","LogInToSocialServices":"클라우드에 게임을 저장하고 최고 점수를 설정하려면 로그인하세요!","UnknownItemsUpdateGame":"오류가 발생했습니다. 알 수 없는 레벨 아이템이 있습니다.\n게임을 업데이트하세요.","FeedbackThankYou":"의견 주셔서 감사합니다!","FeedbackError":"문제가 발생했습니다...\n나중에 다시 시도하세요.","EmptyFeedback":"의견을 입력해주세요.","FeedbackTextPlaceholder":"여기에 입력하세요...","FeedbackHeader":"여러분의 의견을 알려주세요!","Purchased":"구매됨","NewUpgradesAvailable":"신규 업그레이드 가능!","ConfirmExitGame":"게임을 종료할까요?","SuccessfulAttampts":"성공한 시도","LevelListLoadingItemText":"불러오기 중","LoadingUserLevels_Hardest":"불러오기 중\n최고난도 레벨","LoadingUserLevels_Latest":"불러오기 중\n최근 레벨","LoadingUserLevels_MostLiked":"불러오기 중\n인기 레벨","LoadingUserLevels_MostPlayed":"불러오기 중\n가장 많이 플레이한 레벨","LoadingUserLevels_Random":"불러오기 중\n랜덤 레벨","LoadingUserLevels_My":"불러오기 중\n내 레벨","PrizeReady":"준비!","SettingsShowGamepads":"게임패드 표시","SettingsHeader":"설정","SettingsAutoaim":"자동 조준","SettingsSensitivity":"감도","SettingsScreenShake":"화면 흔들림","SettingsScreenFlashes":"화면 깜박임","SettingsEngineSound":"엔진 소리","SettingsFancyExplosions":"멋진 폭발","SettingsAutoaimOffCoinsPercentage":"+{0}% 코인\n끄는 경우","SettingsControls":"조작","ControlsSettingsControlsType":"조작 유형","ControlsSettingsDynamicControls":"동적","ControlsSettingsStaticControls":"고정","ControlsSettingsDynamicControlsExplanation":"탭하는 곳이 중심","ControlsSettingsStaticControlsExplanation":"중심 고정","ControlsSettingsRecommended":"(추천)","ControlsSettingsStaticCenters":"위치","StatiControlsSettingsHeader":"고정 조작 설정","StatiControlsSettingsDescription":"각 영역을 탭하여 중심을 설정하세요","DevelopedBy":"개발자:","MusicBy":"작곡가:","FontsUsed":"사용된 폰트","TutorialBonusCrate":"보너스 상자","TutorialBarrel":"폭발성 통","TutorialBonusFreeze":"적을 얼리세요","TutorialBonusRevealMap":"맵 공개","TutorialBonusCloak":"숨기 보너스","TutorialBonusDoubleDamage":"대미지 2배","TutorialBonusRepairUnit":"제품 수리","TutorialBonusAmmo":"탄약 보너스","TutorialBlocks":"이 블록을 파괴하세요","TutorialSpawner":"생성기를 파괴하세요","TutorialCoins":"코인을 모아 업그레이드를 구매하세요","MoveTutorialHeader":"구역 이동","MoveTutorialDescr":"이동하려면 탭하고 드래그하세요","AutoaimTutorialHeader":"자동 조준","AutoaimTutorialDescr":"길게 탭하고 손가락을 움직이지 마세요","ShootTutorialHeader":"구역 발사","ShootTutorialDescr":"쏘려면 여기를 탭하고 드래그하세요","StaticMoveTutorialHeader":"이동","StaticMoveTutorialDescr":"왼쪽 조이스틱을 사용하세요","StaticAutoaimTutorialHeader":"자동 조준","StaticAutoaimTutorialDescr":"오른쪽 조이스틱 중앙을 잡으세요","StaticShootTutorialHeader":"발사","StaticShootTutorialDescr":"오른쪽 조이스틱을 사용하세요","GameplayUICombo":"콤보","GameplayUIProfit":"수익","WeaponSelectTutor":"길게 눌러\n무기를\n선택하세요","UpgradeArmorTutorial":"방어구\n업그레이드를\n잊지 마세요!","UpgradeMachinegunTutorial":"여기를 탭해\n기관총을\n업그레이드하세요!","PrizeTutorialMsg":"봐요!\n보상이\n준비되었네요!","ArenaLockedMessage":"이 모드를\n해제하려면\n레벨을 더 완료하세요","ArenaUnlockedText":"아레나 레벨에서 코인을 더 많이 얻으세요! 플레이할 때마다 새로운 랜덤 레벨이 생성됩니다. 이 레벨의 적은 코인을 25% 더 많이 줍니다!","MoreLevelsSoonText":"곧 출시됩니다! 그동안 다른 플레이어의 레벨을 확인해보세요!","SurvivalLockedMessage":"이 모드를\n해제하려면\n레벨을 더 완료하세요","RestorePurchasesText":"구매 이력\n복원","PurchasesRemoveAdsText":"인앱 구매 시 전면 광고가 제거됩니다","NewAchievementText":"새로운\n업적!","ShopHeaderText":"코인","AchievementsHeaderText":"업적","LevelSelectHeaderText":"레벨 선택","UpgradesCoinsText":"코인","UpgradesWeaponsText":"무기류","UpgradesTankText":"탱크","LogInToText":"로그인:","ToViewLeaderboardsText":"순위표 보기","LogInText":"로그인","WatchShortVideoForText":"짧은 광고 영상 보고 다음 보상 받기:","CoinsNom":"코인","CoinsGen":"코인","CoinsPlu":"코인","CoinsSingle":"코인","GameplaysNom":"게임 플레이","GameplaysGen":"게임 플레이","GameplaysPlu":"게임 플레이","GameplaysSingle":"게임 플레이","LikesNom":"좋아요","LikesGen":"좋아요","LikesPlu":"좋아요","LikesSingle":"좋아요","UpgradeSpeedHeaderTxt":"속도","UpgradeSpeedDescriptionTxt":"탱크 속도를 업그레이드해 더 빨리 움직이세요!","UpgradeArmorHeaderTxt":"방어구","UpgradeArmorDescriptionTxt":"탱크 방어구를 업그레이드해 더 많은 대미지를 입히세요!","UpgradeMachinegunHeaderTxt":"기관총","UpgradeMachinegunDescriptionTxt":"해당 업그레이드로 기관총 대미지를 증가시키세요!","UpgradeShotgunHeaderTxt":"샷건","UpgradeShotgunPurchasedDescriptionTxt":"해당 업그레이드로 샷건 대미지와 탄약 수를 늘리세요!","UpgradeShotgunUnpurchaseeDescriptionTxt":"더 큰 대미지 피해를 입히세요!","UpgradeMinigunHeaderTxt":"미니건","UpgradeMinigunPurchasedDescriptionTxt":"해당 업그레이드로 미니건 대미지와 탄약 수를 늘리세요!","UpgradeMinigunUnpurchaseeDescriptionTxt":"이 무기로 적을 조각내세요!","UpgradeCannonHeaderTxt":"캐넌","UpgradeCannonPurchasedDescriptionTxt":"해당 업그레이드로 캐넌 대미지와 탄약 수를 늘리세요!","UpgradeCannonUnpurchaseeDescriptionTxt":"폭발성 포탄으로 적 탱크를 산산조각 내세요!","UpgradeHomingMslHeaderTxt":"자동 추적 미사일","UpgradeHomingMslPurchasedDescriptionTxt":"이 업그레이드로 자동 추적 미사일 대미지와 미사일 수량을 늘리세요!","UpgradeHomingMslUnpurchaseeDescriptionTxt":"엄호하고 있는 적을 공격하세요. 이걸 피할 수는 없죠!","UpgradeMinesHeaderTxt":"지뢰","UpgradeMinesPurchasedDescriptionTxt":"이 업그레이드로 지뢰 대미지와 지뢰 수량을 늘리세요!","UpgradeMinesUnpurchaseeDescriptionTxt":"지뢰로 적을 유인해서 폭파해보세요!","UpgradeGuidedMslHeaderTxt":"유도 미사일","UpgradeGuidedMslPurchasedDescriptionTxt":"이 업그레이드로 유도 미사일 대미지와 미사일 수량을 늘리세요!","UpgradeGuidedMslUnpurchaseeDescriptionTxt":"전술 무기입니다. 통제할 수 있는 미사일로 가까이 있는 적을 찾아다니세요!","UpgradeLaserHeaderTxt":"레이저","UpgradeLaserPurchasedDescriptionTxt":"이 업그레이드로 레이저 대미지와 탄약을 늘리세요!","UpgradeLaserUnpurchaseeDescriptionTxt":"적의 방어구에 구멍을 내 완전히 녹여버리세요!","UpgradeRailgunHeaderTxt":"레일 건","UpgradeRailgunPurchasedDescriptionTxt":"이 업그레이드로 레일 건 대미지와 탄약을 늘리세요!","UpgradeRailgunUnpurchaseeDescriptionTxt":"한꺼번에 여러 탱크를 터트리고 싶었던 적이 있으셨나요? 이 조그만 장난감과 함께라면 가능하답니다!","UpgradeRicochetHeaderTxt":"총알","UpgradeRicochetPurchasedDescriptionTxt":"총알 반동을 개선하고, 대미지 및 탄약 수를 늘리세요!","UpgradeRicochetUnpurchaseeDescriptionTxt":"이 무기를 사용하고 전술적 우위를 점하세요!","UpgradeTripleHeaderTxt":"블래스터","UpgradeTriplePurchasedDescriptionTxt":"블래스터 대미지와 탄약 수를 늘리세요!","UpgradeTripleUnpurchaseeDescriptionTxt":"탱크 무리를 처리하는 데 딱입니다!","UpgradeShockerHeaderTxt":"프리즘","UpgradeShockerPurchasedDescriptionTxt":"프리즘 대미지, 탄약 및 광선 길이를 늘리세요!","UpgradeShockerUnpurchaseeDescriptionTxt":"한꺼번에 여러 적에게 치명적인 빛을 반사하세요!","TankBankNameText":"뱅크 오 탱크","ShopDoubleCoinsText":"코인 두 배!","ThankYouText":"구매해주셔서","ForYourPurchaseText":"감사합니다!","PurchaseFailedText":"어라? 무언가 잘못되었네요. 구매가 완료되지 않았습니다.","TankmanTipText1":"그 뒤에 숨어 있는 동안 폭발성 통을 적에게 굴리세요!","TankmanTipText2":"덤불에 숨을 수 있습니다. 근처에 있지 않은 적은 당신을 볼 수 없습니다.","TankmanTipText3":"탱크를 모는 것처럼 유도 미사일을 조종하세요. 눈에 띄지 않게 멀리서 발사하세요.","TankmanTipText4":"무기 업그레이드는 더 많은 탄약을 제공하고 대미지를 증가시킵니다.","TankmanTipText5":"엄지손가락으로 화면을 길게 눌러 자동 조준을 사용하세요!","TankmanTipText6":"설정에서 자동 조준을 비활성화하면 코인 {0}개를 더 얻게 됩니다!","TankmanTipText8":"가끔 코인으로 가득 찬 비밀의 방이 나타나는 레벨이 있습니다. 콘크리트 벽에 주의하세요!","TankmanTipText9":"적 생성기가 적을 생성하기 전에 파괴하세요.","TankmanTipText10":"좁은 복도와 작은 방에 있는 적과는 싸우면 불리합니다. 그들을 탁 트인 공간으로 유인해 터뜨리세요!","TankmanTipText11":"레일 건과 레이저를 장착한 적과 직접 싸우지 마세요. 그들을 정찰하고 몸을 숨긴 후 뒤에서 쏘세요!","TankmanTipText12":"싸울 때는 서 있지 마세요. 적 주위로 이리저리 구르세요! *신호* 당신은 나를 빙빙 돌게 해요...","TankmanTipText13":"유도 미사일 발사 영역을 다시 탭해 미사일을 공중에서 폭발시킬 수 있습니다.","TankmanTipText14":"아레나 모드에서만 나타나는 특수 탱크가 있습니다. 이를 최대한 활용하려면 특별한 대우가 필요합니다.","TankmanTipText15":"설정 메뉴에서 게임 패드 표시를 끌 수 있습니다.","TankmanTipText16":"메인 메뉴에서 클라우드에 저장하는 것을 잊지 마세요!","TankmanTipText17":"레벨이 높을수록 더 많은 코인을 얻을 수 있습니다!","TankmanTipText18":"설정 메뉴에서 조작을 미세하게 조정할 수 있습니다.","TankmanTipText19":"유도 미사일을 사용하여 강한 적을 제거하세요.","PleaseRateOurGameText":"게임을 평가해주세요!","FeedbackMeansALotText":"여러분의 의견은 저희에게 큰 도움이 됩니다!","DontAskAgainText":"다시 묻지 않기","LevelsCompleteAwesomeText":"멋져요!","AllLevelsCompleteText":"모든 레벨을 완료했습니다!","LevelsCompleteBottomText":"아레나 레벨에서 향후 업그레이드를 하려면 돈을 더 많이 버세요!","EditorSceneryButtonTxt":"scn","EditorCompleteToShare":"최초로 레벨을 완성하고 공유하세요!","EditorStartingPointNotSpecified":"플레이어 시작 지점이 지정되지 않았습니다.","EditorCongratsWon":"축하합니다! 당신의 승리입니다!","EditorAddEnemies":"이제 적이나 레벨 목표를 추가해 보세요.","EditorTooManyEnemies":"적이 너무 많으면 프레임 속도가 느려질 수 있습니다.","EditorProceedTesting":"테스트를 진행할까요?","EditorDrawMode":"그리기 모드","EditorScrollMode":"스크롤 모드","EditorClearLevel":"레벨을 지울까요?\n현재 레벨 데이터가 모두 지워집니다.","EditorItemDescription1":"레벨 1 생성기","EditorItemDescription2":"레벨 2 생성기","EditorItemDescription3":"레벨 3 생성기","EditorItemDescription4":"레벨 4 생성기","EditorItemDescription5":"레벨 5 생성기","EditorItemDescription6":"레벨 6 생성기","EditorItemDescription7":"레벨 7 생성기","EditorItemDescription8":"기관총 포탑","EditorItemDescription9":"샷건 포탑","EditorItemDescription10":"미니건 포탑","EditorItemDescription11":"캐넌 포탑","EditorItemDescription12":"자동 추적 미사일 포탑","EditorItemDescription13":"레이저 포탑","EditorItemDescription14":"레일 건 포탑","EditorItemDescription15":"기관총 보스","EditorItemDescription16":"샷건 보스","EditorItemDescription17":"미니건 보스","EditorItemDescription18":"캐넌 보스","EditorItemDescription19":"자동 추적 미사일 보스","EditorItemDescription20":"레이저 보스","EditorItemDescription21":"레일 건 보스","EditorItemDescription22":"벽","EditorItemDescription23":"강화 벽","EditorItemDescription24":"파괴할 수 없는 벽","EditorItemDescription25":"비밀 벽 블록","EditorItemDescription26":"문 벽","EditorItemDescription27":"지우기","EditorItemDescription28":"보너스 상자","EditorItemDescription29":"폭발성 통","EditorItemDescription30":"플레이어 시작","EditorItemDescription31":"덤불","EditorItemDescription32":"기관총 탱크","EditorItemDescription33":"샷건 탱크","EditorItemDescription34":"미니건 탱크","EditorItemDescription35":"캐넌 탱크","EditorItemDescription36":"자동 유지 장치를 단 탱크","EditorItemDescription37":"레이저 탱크","EditorItemDescription38":"레일 건 탱크","EditorItemDescription39":"총알 탱크","EditorItemDescription40":"블래스터 탱크","EditorItemDescription41":"프리즘 탱크","EditorItemDescription42":"총알 보스","EditorItemDescription43":"블래스터 보스","EditorItemDescription44":"프리즘 보스","EditorItemDescription45":"총알 포탑","EditorItemDescription46":"블래스터 포탑","EditorItemDescription47":"프리즘 포탑","EditorItemDescription48":"레벨 8 생성기","EditorItemDescription49":"레벨 9 생성기","EditorItemDescription50":"레벨 10 생성기","EditorItemDescription51":"RC 데모 트럭","EditorItemDescription52":"포털","EditorResizeHeader":"레벨 크기 조정","EditorResizeHeight":"높이:","EditorResizeWidth":"너비:","EditorSceneryHeader":"풍경 선택","EditorSummer":"여름","EditorDesert":"사막","EditorWinter":"겨울","EditorItemSelectionHeader":"아이템 선택","TankBankDescriptionTxt":"코인을 두 배로 얻으세요! 전면 광고를 제거하세요! 탱크와 무기를 더 빨리 업그레이드하세요!","PrizePerfectUnboxing":"완벽히 꺼내기!","PrizeAwesome":"끝내주네요!","PrizeOuch":"이런!","PrizeGreat":"훌륭해요!","PrizeNice":"멋져요!","RewadSelectPrizeBox":"보상 상자를 선택하세요!","RewadSomethingWrong":"광고에 문제가 발생했습니다. 죄송합니다.","RewadDoNotSkip":"보너스를 받으려면 보상용 광고 영상을 건너뛰지 마세요.","RewadPretendNotSkip":"이번은 다 봤다고 칠게요!","RewadDoubleAwesomeness":"두 배로 대단하네요!","MessageNewEditorItemsAvailable":"신규 레벨 에디터\n아이템을 사용할 수 있습니다!","MessageToEnableGameSaving":"게임 저장을 활성화합니다.","MessageYouHaveReceivedAnItem":"아이템을 받았습니다:","EditorItemLockedTxt":"이 아이템을 잠금 해제하려면 더 많은 레벨을 완료하세요.\n인앱 구매 시 모든 것이 잠금 해제됩니다!","MessageEnterPlayerName":"플레이어 이름을 입력하세요.","MessageEnterLevelName":"레벨 이름을 입력하세요.","MessageEnterLevelID":"레벨 ID를 입력하세요.","MessageCloudLoadSuccess":"불러오기에 성공했습니다!","MessageCloudLoadFailed":"불러오기에 실패했습니다. 예상 원인:\n인터넷 연결 없음.\n오래된 게임 버전. 업데이트를 확인하세요.","MessageCloudSaveSuccess":"성공적으로 저장했습니다!","MessageCloudSaveFailed":"저장하지 못했습니다.\n인터넷 연결을 확인하세요.","MessageCloudSaveTimeout":"어라? 무언가 잘못되었네요.","CloudProcessingDataTxt":"데이터 처리 중...","CloudMenuHeader":"클라우드 백업","CloudNotAvailebleTxt":"사용 불가","LoadUserLevelHeader":"사용자 레벨 불러오기","EnterLevelIDTxt":"레벨 ID 입력:","LevelIDPlaceholderTxt":"레벨 ID...","LoadingCustomLevelTxt":"사용자 맞춤 레벨 불러오는 중","LoadingCustomFailed":"지정 ID 레벨을 불러오지 못했습니다.","LoadingCustomIncompatible":"호환되지 않는 레벨입니다. 사용 가능한 업데이트를 확인하세요.","LoadingCustomNoLevelForID":"지정 ID 레벨을 불러오지 못했습니다.","LoadingLevelInfo":"불러오기 중","CustomLevelWasPlayed":"플레이 횟수:","CustomLevelWasNeverPlayed":"이 레벨을 가장 먼저 플레이해보세요!","OwnCustomLevelWasNeverPlayed":"아직 아무도 이 레벨을 플레이하지 않았습니다.","CustomLevelPercentSuccessful":"성공률은 {0}%입니다.","UploadLevelHeader":"레벨 업로드 중","UploadLevelDescTxt":"레벨 정보 입력:","EnterNamePlaceholder":"이름을 입력하세요...","EnterLevelNamePlaceholder":"레벨 이름을 입력하세요...","LevelUploadFailTxt":"오류가 발생했습니다. 나중에 다시 시도해 주세요.","LevelUploadCompleteTxt":"업로드 완료!","LevelIDIsTxt":"레벨 ID:","CloudLoadConfirmation":"클라우드 저장 데이터를 불러오시겠습니까?\n현재 진행 상황을 덮어씁니다.","CloudSaveConfirmation":"데이터를 클라우드에 저장하시겠습니까?\n클라우드 진행 상황을 덮어 씁니다.","AchievementsHeader":"업적","TapAchievementForDetails":"세부 사항을 확인하려면 업적을 탭하세요.","AchievementHeader1":"탱크 파괴자","AchievementDescr1":"이 업적을 달성하려면 적 탱크를 파괴하세요!","AchievementHeader2":"굉장한 콤보!","AchievementDescr2":"이 업적을 달성하려면 콤보를 많이 내세요!","AchievementHeader3":"통을 터뜨리는 자","AchievementDescr3":"이 업적을 달성하려면 폭발성 통을 더 많이 터뜨리세요!","AchievementHeader4":"보너스 헌터","AchievementDescr4":"이 업적을 달성하려면 보너스 상자를 더 많이 부수세요!","AchievementHeader5":"짤랑!","AchievementDescr5":"이 도전 과제를 달성하려면 더 많은 코인을 모으세요!","AchievementHeader6":"미사일 쫒기!","AchievementDescr6":"이 업적을 달성하려면 유도 미사일로 더 많은 적을 쫓으세요!","AchievementHeader7":"미사일을 회피하는 자","AchievementDescr7":"이 업적을 달성하려면 적의 자동 유도 로켓을 회피하세요!","AchievementHeader8":"우승자","AchievementDescr8":"이 업적을 달성하려면 모드에 상관 없이 더 많은 레벨을 완료하세요!","AchievementHeader9":"명사수","AchievementDescr9":"이 업적을 달성하려면 높은 정확도로 레벨을 완료하세요!","AchievementHeader10":"지뢰를 설치하는 자","AchievementDescr10":"이 업적을 달성하려면 지뢰로 더 많은 적을 꾀세요!","AchievementHeader11":"꿰뚫는 자","AchievementDescr11":"이 업적을 달성하려면 한 발의 레일 건 총알로 많은 적을 터뜨리세요!","AchievementHeader12":"몰살자","AchievementDescr12":"이 업적을 달성하려면 적의 생성기를 파괴하세요!","AchievementHeader13":"생존자","AchievementDescr13":"이 업적을 달성하려면 최소한의 HP로 레벨을 완료하세요!","AchievementHeader14":"시간 때우기","AchievementDescr14":"이 업적을 달성하려면 어썸 탱크 게임을 더 많이 플레이하세요!","AchievementHeader15":"포탑 파괴자","AchievementDescr15":"이 업적을 달성하려면 더 많은 적 포탑을 파괴하세요!","AchievementHeader16":"약탈자","AchievementDescr16":"이 업적을 달성하려면 더 많은 레벨의 풍경을 파괴하세요!","ObjectiveCompleteTxt":"임무 완료!","ObjectiveType1":"코인 수집","ObjectiveType2":"벽돌 파괴","ObjectiveType3":"상자 파괴","ObjectiveType4":"적 생성기 파괴","ObjectiveType5":"적 탱크 파괴","ObjectiveType6":"적 탑 파괴","ObjectiveType7":"폭발성 통 파괴","PausedText":"일시 중지","ProfitCaps":"수익","LevelCompleteText":"레벨 완료","GameOverText":"게임 오버","NewLevelComplete":"새 레벨 완료","LevelFailed":"당신의 탱크가 파괴되었습니다","LVPrefix":"LV","StatTip1Pt1":"통을 {0}개 폭발시켰습니다!","StatTip2Pt1":"최고 콤보 길이는 {0}입니다!","StatTip3Pt1":"보너스 상자를 {0}개 파괴했습니다!","StatTip4Pt1":"코인을 {0}개 모았습니다!","StatTip5Pt1":"적의 로켓을 {0}번 피했습니다!","StatTip6Pt1":"적 생성기를 {0}개 파괴했습니다!","StatTip7Pt1":"적의 탱크를 {0}대 파괴했습니다!","StatTip8Pt1":"움직이지 않는 적의 탑을 {0}개 파괴했습니다!","FailoverTip":"탱크 몇 대 터뜨리고 싶은 멋진 날이네요!","SurvivalKillsTxt":"파괴한 탱크:","CustomLevelPlayedId":"레벨 ID:","SurvivalUnlockedHeader":"서바이벌 모드가 잠금 해제되었습니다!","SurvivalUnlockedDescr":"무한한 수의 적을 뚫고 얼마나 생존할 수 있는지 확인해보세요!","ArenaUnlockedHeader":"아레나 모드가 잠금 해제되었습니다!","CheckOutNewUserLevelsMenu":"새로운 사용자 레벨 메뉴를 확인하세요!","UserLevelsAPIErrorMsg":"이런! 문제가 발생했습니다.\n나중에 다시 시도해 주세요.","UserLevelsNoOwnLevelsMsg":"레벨을 업로드하지 않았습니다.","UserLevelsMenuHeader":"사용자 레벨","APIErrorMessage":"문제가 발생했습니다.\n나중에 다시 시도해 주세요.","SuccessfulVoteMsg":"투표해주셔서 감사합니다!","AlreadyVotedMsg":"이 레벨은\n이미 투표되었습니다.","RewadNotAvailable":"아직 광고를 시청할 수 없습니다!"}

@@ -1,0 +1,153 @@
+{
+	"PlayGameButton": "プレイ",
+	
+	"PickPerkHeader": "このレベルのパークを選んでください",
+	"PickPerkSelectButton": "パークを選択",
+	"PickPerkSkipButton": "スキップ",
+	"PickPerkRewadButton": "パークがなくなりました！\nパークは毎日補充されます。\n短い報酬付き動画広告を見て、さらに{val}を獲得しますか？",
+
+	
+	"SettingsShadows": "影",
+	
+	"AmmoUpPerk": "弾薬アップ",
+	"ArmorUpPerk": "装甲アップ",
+	"BackwardsShotPerk": "後方射撃",
+	"DamageUpPerk": "ダメージアップ",
+	"FastBulletsPerk": "高速弾",
+	"FireBulletsPerk": "炎の弾丸",
+	"MoreCoinsPerk": "コイン増加",
+	"RagePerk": "怒り",
+	"ShootingSpeedPerk": "射撃速度アップ",
+	"SideShotsPerk": "側面射撃",
+	"SlowEnemiesPerk": "敵スローダウン",
+	"SlowEnemyBulletsPerk": "敵弾スローダウン",
+	"ShortsightedEnemiesPerk": "敵の視界縮小",
+	"XRayVisionPerk": "透視能力",
+	
+	"AmmoUpPerkDescription": "戦車の弾薬を増やし、より長く撃ち続けましょう。",
+	"ArmorUpPerkDescription": "戦車の装甲を強化し、より多くの敵弾を耐えましょう。",
+	"BackwardsShotPerkDescription": "後方にも撃ち、忍び寄る敵を撃退しましょう。",
+	"DamageUpPerkDescription": "武器のダメージを増加させ、敵を素早く倒しましょう。",
+	"FastBulletsPerkDescription": "弾速を上げ、敵を素早く攻撃しましょう。",
+	"FireBulletsPerkDescription": "燃え上がる弾丸で敵を炎上させましょう。",
+	"MoreCoinsPerkDescription": "倒した敵や隠された宝物からより多くのコインを集めましょう。",
+	"RagePerkDescription": "戦車のHPが低い時に、追加ダメージを発揮しましょう。",
+	"ShootingSpeedPerkDescription": "射撃間隔を短縮し、素早い連射を実現しましょう。",
+	"SideShotsPerkDescription": "左右にも発射し、広い範囲をカバーしましょう。",
+	"SlowEnemiesPerkDescription": "敵の移動を遅くし、有利に戦いましょう。",
+	"SlowEnemyBulletsPerkDescription": "敵の弾速を遅くして、被弾を避けましょう。",
+	"ShortsightedEnemiesPerkDescription": "敵の視界を狭め、発見されにくくしましょう。",
+	"XRayVisionPerkDescription": "壁を透視して、攻撃を精密に計画しましょう。",
+	
+	"LevelTargetTxt":"レベル目標",
+	"LevelTargetDesc":"レベルにレベル目標がある場合、プレーヤーはその目標を達成する必要があります。",
+
+	"BulldozerTxt":"ブルドーズ",
+	"BulldozerDesc":"このツールを使用すると、マップから複数のカスタム要素をすばやく削除できます。",
+	
+	"GraphicsModeSelectionHeader":"グラフィックス モードを選択",
+"GraphicsModeSelectionBottomText":"設定メニューでいつでもモードを切り替えることができます",
+"GraphicsModeSelectionClassicMode":"2D モード",
+"GraphicsModeSelection3DMode":"3D モード",
+	
+	"BuyNow":"今買う",
+		"SpecialOffer":"特別オファー!",
+"NoForcedAds":"強制広告なし",
+"UnlockAllEditorItems":"すべてのレベル エディター アイテムのロックを解除",
+"StarterPack":"スターターパック!",
+"HeadStart":"有利なスタートを切りましょう!",
+	
+"PrivateGameRegionHint":"すべてのプレーヤーが同じ地域を選択していることを確認してください",
+"SettingsGraphicsMode":"グラフィックモード",
+"ArcadeControlsAimingCone":"照準コーン",
+	"PlayerUpgradesEnabled":"プレイヤーの戦車のアップグレードが有効になっています",
+	"PlayerUpgradesDisabled":"プレイヤーの戦車のアップグレードが無効になっている",
+	
+"EditorItemSelectionNoUpgrades":"これらの要素のいずれかを使用すると、このレベルでプレイヤーが購入したアップグレードが無効になります",
+
+"LevelCopyCreated":"以前にアップロードされたレベルのコピーが作成されます",
+
+"LevelDeleteConfirmation": "このレベルを削除しますか？",
+"EditorLevelSelectionHeader":"あなたのレベル",
+"MainMenuOtherPlayersButton":"プレイヤーのレベル",
+
+"Delay": "遅れ",
+"EditorControlledBombDesc": "遠隔操作爆弾",
+"EditorPressDesc": "油圧プレス",
+	"EditorMoveItemHeader": "新しい場所を選択してください",
+	
+"EditorBoulderDesc":"ボルダー",
+
+"EditorLaserHazardDesc":"レーザー壁",
+"LaserHazardDurationSelector":"期間",
+
+"EditorTargetSelectHeader":"ターゲットを選択：{val}",
+
+"PressInitialDelaySelector":"初期遅延",
+"PressIntervalSelector":"間隔",
+"PressSpeedSelector":"速度",
+
+"LaserTargetToggle":"トグルモード",
+"LaserTargetHold":"ホールドモード",
+
+"ButtonTypeSimpleToggle":"ボタンの切り替え",
+"ButtonTypeHold":"保持可能なボタン",
+"ButtonTypeStaysPressed":"ワンタイムボタン",
+	
+"EditorLaserShooterDesc":"レーザーガン",
+"LevelItemSetupHeader":"アイテム設定",
+"EditorLaserMirrorDesc":"レーザーミラー",
+"LevelItemSetupRotatable":"回転可能",
+"LevelItemSetupMovable":"動産",
+"EditorLaserTargetDesc":"レーザーターゲット",
+"LevelItemSetupCanDamageEnemies":"敵に損害を与える",
+"LevelItemSetupCanDamagePlayer":"損害賠償プレーヤー",
+"EditorItemDeleteConfirmation":"アイテムを削除しますか？",
+"EditorGameplayButtonDesc":"ボタン",
+"EditorControlledGatesDesc":"制御されたゲート",
+"LevelItemSetupSelectTargets":"ターゲットを選択",
+"LevelItemSetupResetTargets":"ターゲットをリセット",
+"EditorPitfallDesc":"トラップ",
+"LevelItemSetupActiveAtStart":"開始時にアクティブ",
+	
+	
+"SettingsFancySmileys": "敵の絵文字",
+"PrivateGameCreated": "ゲームは正常に作成されました!\n他のプレイヤーはあなたのゲーム ID: {val} を入力し、「ゲームに参加」ボタンをタップする必要があります。\n\nあなたの地域は: {reg}です。 他のプレイヤーが同じ地域を選択していることを確認してください。",
+
+"CloudMenuSaveGame":"ゲームを保存",
+"CloudMenuLoadGame":"ロードゲーム",
+
+"SettingsGlowEffect": "グロー効果",
+
+"UpgradeFlamethrowerHeaderTxt": "火炎放射器",
+"UpgradeFlamethrowerPurchasedDescriptionTxt": "火炎放射器のダメージと最大弾薬を増やします",
+"UpgradeFlamethrowerUnpurchaseeDescriptionTxt": "敵の戦車に火をつけろ！",
+"EditorItemDescriptionWoodblock": "木製ブロック",
+"EditorSpawner11Desc": "レベル11の敵基地",
+"EnemyTank11Desc": "戦車：火炎放射器",
+"EnemyBoss11Desc": "ボス：火炎放射器",
+"EnemyTurret11Desc": "タレット：火炎放射器",
+
+"TutorialBonusFreeze": "ボーナス：フリーズ",
+"TutorialBonusRepairUnit": "ボーナス：修理ユニット",
+"EditorItemDescriptionBomb": "ボーナス：爆弾",
+"TutorialBonusRevealMap": "ボーナス：マップの公開",
+"TutorialBonusDoubleDamage": "ボーナス：ダブルダメージ",
+"TutorialBonusCloak": "ボーナス：不可視性",
+
+
+
+"BonusShotgunAmmo": "ショットガン弾薬",
+"BonusRicochetAmmo": "跳ね返る弾薬",
+"BonusBlasterAmmo": "ブラスター弾薬",
+"BonusPrismAmmo": "プリズム弾薬",
+"BonusMinigunAmmo": "ミニガン弾薬",
+"BonusCannonAmmo": "キャノン弾薬",
+"BonusHomingMissileAmmo": "ホーミングミサイル弾薬",
+"BonusLaserAmmo": "レーザー弾薬",
+"BonusGuidedMissileAmmo": "誘導ミサイル弾薬",
+"BonusRailgunAmmo": "レールガン弾薬",
+"BonusMinesAmmo": "鉱山の弾薬",
+"BonusFlamethrowerAmmo": "火炎放射器の弾薬",
+
+"MultiplayerStartingGame":"ゲームを開始します","MultiplayerPlayerSettings":"プレーヤーの設定","MpRewardNonWinner":"試合は終わった","MpRewardWinner":"素晴らしい！ 最初の場所！","PrvRIDOnlyNumbers":"数字のみを使用する","MpAmountComment":"マルチプレイヤーの賞金額は、現在のキャンペーンの進行状況によって異なります","ForceStartIn":"ゲームは自動的に開始されます：{val}","PlsUpdateGame":"ゲームを更新してください。","TimporarilyDisabled":"一時的に無効","MultiplayerDisabled":"マルチプレイヤーは一時的に無効になっています。 私たちが取り組まなければならないことがあります。 もう少し時間がかかります。 ありがとうございました！","CheckInternetConnection":"インターネット接続を確認して再試行してください","MultiplayerRoomExists":"このIDの部屋はすでに存在します","MultiplayerRoomDoesNotExist":"ID「{val}」のゲームはありません。\n\n同じリージョンが選択されていることを確認してください。 ホストは、画面の右上隅に自分の領域を確認できます。","CampaignButton":"運動","EditorButton":"レベルエディタ","PrivateLobbyNotReady":"すべてのプレイヤーが準備ができているわけではありません","PrivateLobbyKicked":"ゲームホストによって削除されました","PrivateLobbyKick":"削除する","PrivateLobbyReady":"準備完了","PrivateLobbyStart":"ゲームをスタート","MultiplayerRoomIDValidationWrongChars":"部屋名には英語の文字と数字のみを含めることができます。","MultiplayerRoomIDValidationMaxLength":"部屋名の長さは{val}文字を超えてはなりません","MultiplayerRoomIDValidationMinLength":"部屋名は{val}文字より短くてはいけません","MultiplayerJoinGame":"ゲームに参加します","MultiplayerCreateGame":"ゲームを作る","MultiplayerEnterGameID":"ゲームIDを入力してください","MultiplayerMatchResultsScore":"スコア","MultiplayerMatchResultsPlayer":"プレーヤー","MultiplayerDisconnected":"何かがうまくいかなかった、それについて申し訳ありません。","MultiplayerMatchResultsHeader":"試合結果","MultiplayerWaitingForPlayers":"プレイヤーを待っています","MultiplayerJoiningGame":"ゲームに参加する","MultiplayerModesComingSoon":"より多くのモードがすぐに来ます！","MultiplayerReportProblem":"マルチプレイヤーの問題を報告する","MultiplayerPrivateGame":"友達と遊ぶ","MultiplayerGlobalGame":"小競り合い","MultiplayerSettingsHeader":"マルチプレイヤー","AuthDialogCheckConnection":"インターネット接続を確認してください","AuthDialogWaitingServer":"お待ちください...","AuthDialogWaitingSocial":"ログインしています...","AuthDialogLoginRequiredSocialService":"{val}でログインする必要があります。 ログインを続行しますか？","PlayerJoined":"プレイヤー{val}がゲームに参加しました","PlayerDisconnected":"プレーヤー{val}が切断されました","SpeedUpgLevel":"LVL {val}スピードアップグレード","ArmorUpgLevel":"レベル{val}アーマーのアップグレード","FailedSocialLogin":"{servicename}へのサインインに失敗しました","SettingsEnemiesVision":"敵のビジョンを示す","WeaponSelectTutorSimpleControls":"タップして武器を選択","NewTutorTapToMove":"そこを運転するにはどこかをタップします","NewTutorTapToShoot":"攻撃するターゲットをタップします","ControlsSettingsArcadeControls":"アーケードコントロール","ControlsSettingsStrategyControls":"戦略コントロール","TapControlsDrawPath":"パスを描く","ControlsSettingsStrategyControlsExplanation":"どこでもタップして運転または攻撃","ControlsSettingsArcadeControlsExplanation":"仮想ゲームパッド","LogInInitiatedMsg":"ログインする","SuccessfulSocialLogin":"ログインに成功しました。","SettingsLockCenter":"ロックセンター","ReviveTankHeader":"戦車を修理しますか？","ReviveTankDescription":"リワード動画を視聴して戦車を修理する","ReviveTankWatchVideo":"動画を視聴する","FreeWeapon":"無料の武器！","DeleteDataConfirmation":"本当にデータを削除しますか？これには保存されたゲームデータが含まれます。","PrivacySettings":"プライバシー設定","DeleteMyData":"データを削除","PersonalizedAds":"パーソナライズされた広告","NonPersonalizedAds":"パーソナライズされていない広告","GDPRHeader":"始める前に","GDPRDescription":"戦車の操作を開始するには、利用規約に同意する必要があります。","GDPRTermsOfService":"サービス利用規約","GDPRTapToRead":"（ここをタップして読む）","GDPRAccept":"同意する","AgeSelectionContinue":"続行","SelectBirthYear":"生年を選択してください","ControlsSettingsReset":"設定をリセット","ShareLevelPrefix":"「Awesome Tanks」のレベルをプレイ！","ShareLevelName":"レベル名は{levelname}です。","ShareLevelId":"プレイするプレイヤーのレベルメニューにレベル番号{levelId}を入力してください。","ShareLevelDownload":"ゲームをインストール","ShareGeneral":"「Awesome Tank」をプレイ！","SavegameFailed":"ゲームの保存に失敗しました。デバイスに十分なスペースがない可能性があります。","RewadCoinsMultiplierText":"動画広告を視聴してx {multiplier}コインを入手！","CantPlacePortalMaxReached":"ポータルの最大数に達しました。","ColorPickerHeaderBody":"ボディ","ColorPickerHeaderTurret":"タレット","PrivacyPolicy":"個人情報保護方針","EnableAutosave":"自動保存","EnableAutosaveDescription":"自動保存は、現在の進行状況がク\nラウドの進行状況よりも優れてい\nる場合にのみ機能します。","SocialAuthInProgress":"{servicename}のログイン中、しばらくお待ちください。","TankColors":"戦車の塗り絵","FeedbackConfirmation":"サポートに問い合わせ","UserlevelsPeriodWeekly":"毎週","UserlevelsPeriodMonthly":"毎月","ConfirmLevelReport":"このレベルに何か問題がありますか？","ThanksForLevelReport":"ご連絡ありがとうございました。","YouHaveReceivedCoins":"コインを受け取りました：","LevelsCompletedOverride":"完了したレベルは次のように設定されました。","LanguageButton":"言語","PromoHeader":"限定オファー！","PromoDesc":"ショップでダブルコインを入手！","NonIntLevelIdTextError":"レベルIDを整数で入力してください。","CloudSaveTutorial":"進行状況をクラウドに保存してください！紛失することはなく、別のデバイスで中断したところから続行できます。クラウドボタンをタップ！","LogInToSocialServices":"ログインしてゲームをクラウドに保存し、\n高スコアを設定してください！","UnknownItemsUpdateGame":"エラーが発生しました：不明なレベルのアイテムが見つかりました。\nゲームを更新してください。","FeedbackThankYou":"フィードバックありがとうございます！","FeedbackError":"エラーが発生しました\n後でもう一度お試しください。","EmptyFeedback":"フィードバックテキストを入力してください","FeedbackTextPlaceholder":"ここに入力","FeedbackHeader":"ご意見をお聞かせください！","Purchased":"購入済み","NewUpgradesAvailable":"新しいアップグレードがご利用可能です！","ConfirmExitGame":"ゲームを終了しますか？","SuccessfulAttampts":"成功した試み","LevelListLoadingItemText":"読み込み中","LoadingUserLevels_Hardest":"読み込み中\n最も難しいレベル","LoadingUserLevels_Latest":"読み込み中\n最新レベル","LoadingUserLevels_MostLiked":"読み込み中\n最もいいねの多いレベル","LoadingUserLevels_MostPlayed":"読み込み中\n最もプレイされたレベル","LoadingUserLevels_Random":"読み込み中\nランダムレベル","LoadingUserLevels_My":"読み込み中\n自分のレベル","PrizeReady":"準備完了！","SettingsShowGamepads":"ゲームパッドを表示する","SettingsHeader":"設定","SettingsAutoaim":"自動照準","SettingsSensitivity":"感度","SettingsScreenShake":"スクリーンシェイク","SettingsScreenFlashes":"画面の点滅","SettingsEngineSound":"エンジンサウンド","SettingsFancyExplosions":"派手な爆発","SettingsAutoaimOffCoinsPercentage":"+{0}% コイン\nオフにした場合","SettingsControls":"コントロール","ControlsSettingsControlsType":"コントロールタイプ","ControlsSettingsDynamicControls":"動的","ControlsSettingsStaticControls":"静的","ControlsSettingsDynamicControlsExplanation":"タップしたところに合わせる","ControlsSettingsStaticControlsExplanation":"スタティックセンター","ControlsSettingsRecommended":"(推奨)","ControlsSettingsStaticCenters":"位置","StatiControlsSettingsHeader":"スタティックコントロール設定","StatiControlsSettingsDescription":"センターをセットアップするには、\nそれぞれのエリアをタップします","DevelopedBy":"開発者","MusicBy":"音楽提供者","FontsUsed":"使用フォント","TutorialBonusCrate":"ボーナスクレート","TutorialBarrel":"爆発性バレル","TutorialBonusFreeze":"敵を凍らせる","TutorialBonusRevealMap":"地図を明らかにする","TutorialBonusCloak":"クロークボーナス","TutorialBonusDoubleDamage":"ダブルダメージ","TutorialBonusRepairUnit":"修理ユニット","TutorialBonusAmmo":"弾薬ボーナス","TutorialBlocks":"これらのブロックを破壊する","TutorialSpawner":"スポーナーを破壊する","TutorialCoins":"コインを集めてアップグレードを購入する","MoveTutorialHeader":"移動エリア","MoveTutorialDescr":"ここをタップしてドラッ\nグすると移動します","AutoaimTutorialHeader":"自動照準","AutoaimTutorialDescr":"タップ＆ホールドして指\nを動かさないでください","ShootTutorialHeader":"砲撃エリア","ShootTutorialDescr":"ここをタップ＆ドラッグ\nして砲撃する","StaticMoveTutorialHeader":"動作","StaticMoveTutorialDescr":"左のジョイスティックを使用","StaticAutoaimTutorialHeader":"自動照準","StaticAutoaimTutorialDescr":"右のジョイスティック中央をホールド","StaticShootTutorialHeader":"砲撃する","StaticShootTutorialDescr":"正しいジョイスティックを使用","GameplayUICombo":"コンボ","GameplayUIProfit":"利益","WeaponSelectTutor":"握る\n選択\n武器","UpgradeArmorTutorial":"忘れずに\n鎧を\nアップグレード！","UpgradeMachinegunTutorial":"ここをタップして\nマシンガンを\nアップグレード！","PrizeTutorialMsg":"見て！\nあなたの賞金が\n準備できています！","ArenaLockedMessage":"もっとレベルを\n完了してこのモ\nードを解除","ArenaUnlockedText":"アリーナレベルでもっ\nと多くのコインを獲得！\nプレイするたびに、\n新しいランダムレベ\nルが生成されます。\nこれらのレベルの敵\nはあなたに25％多く\nのコインを与えます！","MoreLevelsSoonText":"近日公開！その間、他のプレイヤーのレベルをチェック！","SurvivalLockedMessage":"もっとレベルを\n完了して\nこのモードを解除","RestorePurchasesText":"復元\n購入","PurchasesRemoveAdsText":"アプリ内購入はインタースティシャル広告を削除します","NewAchievementText":"新規\n達成記録","ShopHeaderText":"コイン","AchievementsHeaderText":"達成記録","LevelSelectHeaderText":"レベルを選択","UpgradesCoinsText":"コイン","UpgradesWeaponsText":"武器","UpgradesTankText":"戦車","LogInToText":"次にログイン","ToViewLeaderboardsText":"リーダーボードを表示するには","LogInText":"ログイン","WatchShortVideoForText":"次の達成記録のためにショート動画を視聴","CoinsNom":"コイン","CoinsGen":"コイン","CoinsPlu":"コイン","CoinsSingle":"コイン","GameplaysNom":"ゲームプレイ","GameplaysGen":"ゲームプレイ","GameplaysPlu":"ゲームプレイ","GameplaysSingle":"ゲームプレイ","LikesNom":"いいね","LikesGen":"いいね","LikesPlu":"いいね","LikesSingle":"いいね","UpgradeSpeedHeaderTxt":"速度","UpgradeSpeedDescriptionTxt":"戦車速度をアップグレードして、より速く動こう！","UpgradeArmorHeaderTxt":"鎧","UpgradeArmorDescriptionTxt":"戦車の鎧をアップグレードして、より多くのダメージに耐えよう！","UpgradeMachinegunHeaderTxt":"マシンガン","UpgradeMachinegunDescriptionTxt":"このアップグレードでマシンガンのダメージを増やそう！","UpgradeShotgunHeaderTxt":"ショットガン","UpgradeShotgunPurchasedDescriptionTxt":"このアップグレードでショットガンのダメージと弾薬数を増やそう！","UpgradeShotgunUnpurchaseeDescriptionTxt":"与えたダメージをより大きく広げよう！","UpgradeMinigunHeaderTxt":"ミニガン","UpgradeMinigunPurchasedDescriptionTxt":"このアップグレードでミニガンのダメージと弾薬数を増やそう！","UpgradeMinigunUnpurchaseeDescriptionTxt":"この武器で敵を粉々にしよう！","UpgradeCannonHeaderTxt":"キャノン","UpgradeCannonPurchasedDescriptionTxt":"このアップグレードでキャノンのダメージと弾薬数を増やそう！","UpgradeCannonUnpurchaseeDescriptionTxt":"爆弾で敵の戦車を粉砕しよう！","UpgradeHomingMslHeaderTxt":"ホーミングミサイル","UpgradeHomingMslPurchasedDescriptionTxt":"このアップグレードでホーミングミサイルのダメージと数量カウントを増やそう！","UpgradeHomingMslUnpurchaseeDescriptionTxt":"カバーの後ろから敵を攻撃しよう。これらから隠れるのは難しいです。","UpgradeMinesHeaderTxt":"地雷","UpgradeMinesPurchasedDescriptionTxt":"このアップグレードで地雷のダメージと数量カウントを増やそう！","UpgradeMinesUnpurchaseeDescriptionTxt":"それらを厄介な地雷に誘い込み、爆発するのを見よう！","UpgradeGuidedMslHeaderTxt":"誘導ミサイル","UpgradeGuidedMslPurchasedDescriptionTxt":"このアップグレードで誘導ミサイルのダメージと数を増やそう！","UpgradeGuidedMslUnpurchaseeDescriptionTxt":"あなたの戦術的な武器。これらの制御可能なミサイルで角から敵を狙い撃ちしよう！","UpgradeLaserHeaderTxt":"レーザー","UpgradeLaserPurchasedDescriptionTxt":"このアップグレードでレーザーダメージと弾薬を増やそう！","UpgradeLaserUnpurchaseeDescriptionTxt":"鎧に穴を開けて、ドロドロに溶かそう！","UpgradeRailgunHeaderTxt":"レールガン","UpgradeRailgunPurchasedDescriptionTxt":"このアップグレードでレールガンダメージと弾薬を増やそう！","UpgradeRailgunUnpurchaseeDescriptionTxt":"一度に複数の戦車を爆撃したいと思ったことはありませんか？この小さなおもちゃでそれが可能です！","UpgradeRicochetHeaderTxt":"跳弾","UpgradeRicochetPurchasedDescriptionTxt":"跳弾の跳ね返り回数、ダメージ、弾薬を向上しよう！","UpgradeRicochetUnpurchaseeDescriptionTxt":"戦術的優位性のためにこの武器を使用しよう！","UpgradeTripleHeaderTxt":"ブラスター","UpgradeTriplePurchasedDescriptionTxt":"ブラスターダメージと弾薬数を増やそう！","UpgradeTripleUnpurchaseeDescriptionTxt":"戦車の群れに最適！","UpgradeShockerHeaderTxt":"プリズム","UpgradeShockerPurchasedDescriptionTxt":"プリズムの損傷、弾薬、光線の長さを向上しよう！","UpgradeShockerUnpurchaseeDescriptionTxt":"一度に複数の敵に破壊的な光線を当てよう！","TankBankNameText":"戦車銀行","ShopDoubleCoinsText":"ダブルコイン！","ThankYouText":"ありがとうございます","ForYourPurchaseText":"ご購入用に！","PurchaseFailedText":"申し訳ございません。何かトラブルが発生したようです。購入は完了しませんでした。","TankmanTipText1":"背後に隠れながら爆発的なバレル\nを敵に転がそう！","TankmanTipText2":"茂みに隠れることができるよ。敵は本当に近く\nを走らない限り、あなたを見つけられません。","TankmanTipText3":"戦車を運転するように誘導ミサイルをコントロールしよ\nう。見つからないようにするには、遠くから発射しよう。","TankmanTipText4":"武器のアップグレードにより弾薬が増え、\nダメージが増加するよ。","TankmanTipText5":"自動照準を設定するために、\n狙いを定めて親指をタップ＆ホールド！","TankmanTipText6":"設定で自動照準を無効にすると、\nさらに{0}個のコインを獲得できるよ！","TankmanTipText8":"レベルにはコインでいっぱいの秘密の部屋が含まれている\nことがあるよ。コンクリートの壁に注意して！","TankmanTipText9":"すべての敵が誕生する前に、敵の\nスポーナーを破壊してみよう。","TankmanTipText10":"狭い廊下や小さな部屋で敵との全面対戦は避けよう。\n彼らを誘い出し、オープン広場で爆撃しちゃおう！","TankmanTipText11":"レールガンとレーザー装備の敵との直接対決は避けよう。\n彼らを偵察し、カバーの後ろから攻撃しちゃおう！","TankmanTipText12":"対戦する時はただ立っていないで。\nあらゆる場所と敵の周りを転がしちゃおう！\n*サイン*ぐるぐるスピンしてね","TankmanTipText13":"誘導ミサイルを発射した場合は、\n必要に応じて射撃エリアを再度タップして空中で爆発させます。","TankmanTipText14":"アリーナモードでのみ表示される特別な戦車があるよ。\nそれを最大限に活用するには特別な扱いが必要！","TankmanTipText15":"設定メニューでゲームパッドの表示をオ\nフにすることができるよ。","TankmanTipText16":"メインメニューからクラウドに保存する\nことを忘れないで！","TankmanTipText17":"より高いレベルでは、より多く\nのコインを獲得できるよ！","TankmanTipText18":"設定メニューでコントロ\nールを微調整できるよ。","TankmanTipText19":"激しい敵を倒すには、\n誘導ミサイルを使おう。","PleaseRateOurGameText":"ゲームを評価してください！","FeedbackMeansALotText":"あなたのフィードバックは私たちにとってとても重要です！","DontAskAgainText":"再度表示しない","LevelsCompleteAwesomeText":"素晴らしい！","AllLevelsCompleteText":"すべてのレベルが完了しました！","LevelsCompleteBottomText":"アリーナレベルでの将来のアップ\nグレードのためにもっと稼ごう！","EditorSceneryButtonTxt":"scn","EditorCompleteToShare":"最初にレベルを完了してシェアしよう！","EditorStartingPointNotSpecified":"プレイヤーの開始ポイントが指定されていません。","EditorCongratsWon":"おめでとうございます！勝利しました！","EditorAddEnemies":"次に、敵またはレベル目標を追加してみます。","EditorTooManyEnemies":"敵が多すぎると、フレームレートが低くなる場合があります。","EditorProceedTesting":"テストに進みますか？","EditorDrawMode":"描画モード","EditorScrollMode":"スクロールモード","EditorClearLevel":"レベルをクリアしますか？\n現在のレベルのデータはすべて消去されます。","EditorItemDescription1":"レベル1スポーナー","EditorItemDescription2":"レベル2スポーナー","EditorItemDescription3":"レベル3スポーナー","EditorItemDescription4":"レベル4スポーナー","EditorItemDescription5":"レベル5スポーナー","EditorItemDescription6":"レベル6スポーナー","EditorItemDescription7":"レベル7スポーナー","EditorItemDescription8":"マシンガンタレット","EditorItemDescription9":"ショットガンタレット","EditorItemDescription10":"ミニガンタレット","EditorItemDescription11":"キャノンタレット","EditorItemDescription12":"ホーミングミサイルタレット","EditorItemDescription13":"レーザータレット","EditorItemDescription14":"レールガンタレット","EditorItemDescription15":"マシンガンボス","EditorItemDescription16":"ショットガンボス","EditorItemDescription17":"ミニガンボス","EditorItemDescription18":"キャノンボス","EditorItemDescription19":"ホーミングミサイルボス","EditorItemDescription20":"レーザーボス","EditorItemDescription21":"レールガンボス","EditorItemDescription22":"壁","EditorItemDescription23":"補強壁","EditorItemDescription24":"不滅の壁","EditorItemDescription25":"秘密の壁ブロック","EditorItemDescription26":"ゲートの壁","EditorItemDescription27":"クリア","EditorItemDescription28":"ボーナスクレート","EditorItemDescription29":"爆発性バレル","EditorItemDescription30":"プレイヤー開始","EditorItemDescription31":"茂み","EditorItemDescription32":"マシンガン戦車","EditorItemDescription33":"ショットガン戦車","EditorItemDescription34":"ミニガン戦車","EditorItemDescription35":"キャノン戦車","EditorItemDescription36":"ホーミング戦車","EditorItemDescription37":"レーザー戦車","EditorItemDescription38":"レールガン戦車","EditorItemDescription39":"跳弾戦車","EditorItemDescription40":"ブラスター戦車","EditorItemDescription41":"プリズム戦車","EditorItemDescription42":"跳弾ボス","EditorItemDescription43":"ブラスターボス","EditorItemDescription44":"プリズムボス","EditorItemDescription45":"跳弾タレット","EditorItemDescription46":"ブラスタータレット","EditorItemDescription47":"プリズムタレット","EditorItemDescription48":"レベル8スポーナー","EditorItemDescription49":"レベル9スポーナー","EditorItemDescription50":"レベル10スポーナー","EditorItemDescription51":"RCデモトラック","EditorItemDescription52":"ポータルサイト","EditorResizeHeader":"レベルのサイズ変更","EditorResizeHeight":"高さ：","EditorResizeWidth":"幅：","EditorSceneryHeader":"シーンを選択","EditorSummer":"夏","EditorDesert":"砂漠","EditorWinter":"冬","EditorItemSelectionHeader":"項目を選択","TankBankDescriptionTxt":"ダブルコインを入手！インタースティシャル広告を削除！戦車と武器をより速くアップグレード！","PrizePerfectUnboxing":"完璧な開封！","PrizeAwesome":"素晴らしい！","PrizeOuch":"おっと！","PrizeGreat":"すごい！","PrizeNice":"やったね！","RewadSelectPrizeBox":"賞金ボックスを選択してください！","RewadSomethingWrong":"広告に問題が発生しました。申し訳ございません。","RewadDoNotSkip":"ボーナスを獲得するために、リワード動画広告をスキップしないでください。","RewadPretendNotSkip":"今回はスキップしなかったふりをしましょう！","RewadDoubleAwesomeness":"ダブルで素晴らしい！","MessageNewEditorItemsAvailable":"新規レベルエディター\nご利用可能なアイテムがあります！","MessageToEnableGameSaving":"ゲームの保存を有効にします。","MessageYouHaveReceivedAnItem":"アイテムを受け取りました：","EditorItemLockedTxt":"このアイテムのロックを解除するには、さらにレベルを完了してください。\nアプリ内購入はすべてのロックを解除します！","MessageEnterPlayerName":"プレイヤー名を入力してください。","MessageEnterLevelName":"レベル名を入力してください。","MessageEnterLevelID":"レベルIDを入力してください。","MessageCloudLoadSuccess":"読み込みに成功しました！","MessageCloudLoadFailed":"読み込みに失敗しました。考えられる理由：\nインターネット接続がありません。\n最新バージョンではありません。アップデートを確認してください。","MessageCloudSaveSuccess":"保存に成功しました！","MessageCloudSaveFailed":"保存に失敗しました。\nインターネット接続を確認してください。","MessageCloudSaveTimeout":"申し訳ございません。何かトラブルが発生したようです。","CloudProcessingDataTxt":"データを処理しています...","CloudMenuHeader":"クラウドバックアップ","CloudNotAvailebleTxt":"使用不可","LoadUserLevelHeader":"ユーザーレベルを読み込む","EnterLevelIDTxt":"レベルIDを入力：","LevelIDPlaceholderTxt":"レベルID...","LoadingCustomLevelTxt":"カスタムユーザーレベルを読み込み中","LoadingCustomFailed":"指定されたIDのレベルの読み込みに失敗しました。","LoadingCustomIncompatible":"互換性のないレベル。利用可能なアップデートを確認してください。","LoadingCustomNoLevelForID":"指定されたIDのレベルの読み込みに失敗しました。","LoadingLevelInfo":"読み込み中","CustomLevelWasPlayed":"プレイ回数:","CustomLevelWasNeverPlayed":"このレベルを最初にプレイ！","OwnCustomLevelWasNeverPlayed":"誰もまだこのレベルをプレイしていません。","CustomLevelPercentSuccessful":"{0}% の成功した試み。","UploadLevelHeader":"レベルをアップロード中","UploadLevelDescTxt":"レベル情報を入力：","EnterNamePlaceholder":"名前を入力...","EnterLevelNamePlaceholder":"レベル名を入力...","LevelUploadFailTxt":"エラーが発生しました。後ほどもう一度お試しください。","LevelUploadCompleteTxt":"アップロードが完了しました！","LevelIDIsTxt":"レベルIDは次のとおりです。","CloudLoadConfirmation":"クラウド保存データを読み込みますか？\n現在の進行状況は上書きされます","CloudSaveConfirmation":"データをクラウドに保存しますか？\nクラウドの進行状況は上書きされます","AchievementsHeader":"達成記録","TapAchievementForDetails":"達成記録をタップして詳細を表示します。","AchievementHeader1":"戦車破壊者","AchievementDescr1":"この達成記録を獲得するために、\n敵の戦車を破壊しよう！","AchievementHeader2":"素晴らしいコンボ！","AchievementDescr2":"この達成記録を獲得するために、\n素晴らしいコンボを実行しよう！","AchievementHeader3":"バレルポッパー","AchievementDescr3":"この達成記録を獲得するために、\nより爆発的なバレルを爆発させよう！","AchievementHeader4":"ボーナスハンター","AchievementDescr4":"この達成記録を獲得するために、\nより多くのボーナスクレートを潰そう！","AchievementHeader5":"ヤッター！","AchievementDescr5":"この達成記録を獲得するために、\nさらにコインを集めよう！","AchievementHeader6":"ミサイルトロール！","AchievementDescr6":"この達成記録を獲得するために、\n誘導ミサイルでより多くの敵を狙い撃ちしよう！","AchievementHeader7":"ミサイル回避","AchievementDescr7":"この達成記録を獲得するために、\n敵のホーミングロケットをかわそう！","AchievementHeader8":"勝者","AchievementDescr8":"この達成記録を獲得するために、\nより多くのレベル（任意のモード）を完了しよう！","AchievementHeader9":"マークスマン","AchievementDescr9":"この達成記録を獲得するために、\n高い正確性でレベルを完了しよう！","AchievementHeader10":"地雷レイヤー","AchievementDescr10":"この達成記録を獲得するために、\nより多くの敵を地雷に誘い込もう！","AchievementHeader11":"ピアサー","AchievementDescr11":"この達成記録を獲得するために、\nレールガン一撃で多くの敵を攻撃しよう！","AchievementHeader12":"破滅者","AchievementDescr12":"この達成記録を獲得するために、\n敵のスポーナーを破壊しよう！","AchievementHeader13":"サバイバー","AchievementDescr13":"この達成記録を獲得するために、\nできるだけ少ないHPでレベルをクリアしよう！","AchievementHeader14":"暇つぶし","AchievementDescr14":"この達成記録を獲得するために、\nAwesome Tanks\nのプレイにもっと時間を費やそう！","AchievementHeader15":"タレット破壊者","AchievementDescr15":"この達成記録を獲得するために、\n敵のタレットをさらに破壊しよう！","AchievementHeader16":"デバステイター","AchievementDescr16":"この達成記録を獲得するために、\nより多くのレベルのシーンを破壊しよう！","ObjectiveCompleteTxt":"目標完了！","ObjectiveType1":"1000コインを集める","ObjectiveType2":"レンガを破壊する","ObjectiveType3":"木枠を破壊する","ObjectiveType4":"敵のスポーナーを破壊する","ObjectiveType5":"敵の戦車を破壊する","ObjectiveType6":"敵の塔を破壊する","ObjectiveType7":"爆発性バレルを破壊する","PausedText":"一時停止中","ProfitCaps":"利益","LevelCompleteText":"レベル完了","GameOverText":"ゲームオーバー","NewLevelComplete":"新規レベル完了","LevelFailed":"あなたの戦車は破壊されました","LVPrefix":"レベル","StatTip1Pt1":"{0}バレルを爆発させました！","StatTip2Pt1":"最高のコンボ長は{0}です！","StatTip3Pt1":"{0}ボーナスクレートを破壊しました！","StatTip4Pt1":"{0}個のコインを収集しました！","StatTip5Pt1":"{0}敵のロケットをかわしました！","StatTip6Pt1":"{0}の敵のスポーナーを破壊しました！","StatTip7Pt1":"{0}の敵戦車を破壊しました！","StatTip8Pt1":"{0}の静止した敵の塔を破壊しました！","FailoverTip":"戦車を爆撃するなんて素晴らしい日！","SurvivalKillsTxt":"破壊された戦車：","CustomLevelPlayedId":"レベルID：","SurvivalUnlockedHeader":"サバイバルモードのロッ\nクが解除されました！","SurvivalUnlockedDescr":"無限の敵を通して\n自分の戦術を使い、\nどれくらい長く生\nき残ることができ\nるか試してみよう！","ArenaUnlockedHeader":"アリーナモードのロッ\nクが解除されました！","CheckOutNewUserLevelsMenu":"新しいユーザーレベルメニューをご覧ください！","UserLevelsAPIErrorMsg":"エラー発生！何らかの問題が発生しました。\n後ほどもう一度お試しください。","UserLevelsNoOwnLevelsMsg":"レベルをアップロードしませんでした。","UserLevelsMenuHeader":"ユーザーレベル","APIErrorMessage":"何らかの問題が発生しました。\n後ほどもう一度お試しください。","SuccessfulVoteMsg":"ご投票ありがとうございました。","AlreadyVotedMsg":"このレベルに\n既に投票しています。","RewadNotAvailable":"ビデオ広告はまだ利用できません！"}

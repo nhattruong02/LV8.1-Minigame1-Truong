@@ -1,0 +1,154 @@
+{
+	"PlayGameButton": "العب",
+	
+	"PickPerkHeader": "اختر ميزة لهذا المستوى",
+	"PickPerkSelectButton": "اختر ميزة",
+	"PickPerkSkipButton": "تخطي",
+	"PickPerkRewadButton": "لقد نفدت الميزات!\nيتم تجديد الميزات يوميًا.\nهل تريد مشاهدة إعلان فيديو قصير والحصول على {val} إضافية؟",
+	
+	"SettingsShadows": "الظلال",
+	
+	"AmmoUpPerk": "زيادة الذخيرة",
+	"ArmorUpPerk": "زيادة الدرع",
+	"BackwardsShotPerk": "إطلاق النار للخلف",
+	"DamageUpPerk": "زيادة الضرر",
+	"FastBulletsPerk": "رصاصات سريعة",
+	"FireBulletsPerk": "رصاصات نارية",
+	"MoreCoinsPerk": "المزيد من العملات",
+	"RagePerk": "الغضب",
+	"ShootingSpeedPerk": "زيادة سرعة الإطلاق",
+	"SideShotsPerk": "إطلاق جانبي",
+	"SlowEnemiesPerk": "إبطاء الأعداء",
+	"SlowEnemyBulletsPerk": "إبطاء رصاصات الأعداء",
+	"ShortsightedEnemiesPerk": "أعداء ضعيفي النظر",
+	"XRayVisionPerk": "رؤية بالأشعة السينية",
+	
+	"AmmoUpPerkDescription": "زيادة كمية الذخيرة القصوى للدبابة لإطلاق النار لفترة أطول.",
+	"ArmorUpPerkDescription": "زيادة درع الدبابة لتحمل المزيد من طلقات العدو.",
+	"BackwardsShotPerkDescription": "أطلق النار للخلف لضرب الأعداء المتسللين.",
+	"DamageUpPerkDescription": "زيادة ضرر الأسلحة لتدمير الأعداء بشكل أسرع.",
+	"FastBulletsPerkDescription": "زيادة سرعة الرصاص لضرب الأعداء قبل أن يتفاعلوا.",
+	"FireBulletsPerkDescription": "أشعل الأعداء بالرصاصات النارية.",
+	"MoreCoinsPerkDescription": "اجمع المزيد من العملات من الأعداء المهزومين والكنوز المخفية.",
+	"RagePerkDescription": "أطلق ضررًا إضافيًا عندما تكون صحة الدبابة منخفضة.",
+	"ShootingSpeedPerkDescription": "قلل من فترات الإطلاق لتحقيق وابل سريع.",
+	"SideShotsPerkDescription": "أطلق النار أيضًا إلى الجانبين لتغطية مساحة أكبر.",
+	"SlowEnemiesPerkDescription": "إبطاء دبابات العدو للحصول على ميزة.",
+	"SlowEnemyBulletsPerkDescription": "قلل من سرعة الرصاصات القادمة من الأعداء.",
+	"ShortsightedEnemiesPerkDescription": "قلل من مدى رؤية الأعداء لجعل اكتشافك أصعب.",
+	"XRayVisionPerkDescription": "رؤية عبر الجدران لتخطيط هجماتك بدقة.",
+	
+	"LevelTargetTxt":"هدف المستوى",
+	"LevelTargetDesc":"إذا كان للمستوى هدف مستوى، فيجب على اللاعب الوصول إليه.",
+
+	"BulldozerTxt":"جرافة",
+	"BulldozerDesc":"استخدم هذه الأداة لإزالة عناصر مخصصة متعددة من الخريطة بسرعة.",
+	
+	"GraphicsModeSelectionHeader": "حدد وضع الرسومات",
+"GraphicsModeSelectionBottomText":"يمكنك التبديل بين الأوضاع في قائمة الإعدادات في أي وقت",
+"GraphicsModeSelectionClassicMode": "وضع ثنائي الأبعاد",
+"GraphicsModeSelection3DMode": "وضع ثلاثي الأبعاد",
+	
+	"BuyNow":"اشتري الآن",
+		"SpecialOffer": "Special Offer!",
+"NoForcedAds": "لا توجد إعلانات قسرية",
+"UnlockAllEditorItems": "فتح كافة عناصر محرر المستوى",
+"StarterPack": "Starter Pack!",
+"HeadStart": "احصل على السبق!" ,
+	
+"PrivateGameRegionHint":"تأكد من تحديد نفس المنطقة لجميع اللاعبين",
+"SettingsGraphicsMode":"وضع الرسومات",
+"ArcadeControlsAimingCone":"تهدف إشارة مخروط",
+	"PlayerUpgradesEnabled":"تم تمكين ترقيات دبابة اللاعب",
+	"PlayerUpgradesDisabled":"تم تعطيل ترقيات دبابة اللاعب",
+	
+"EditorItemSelectionNoUpgrades":"سيؤدي استخدام أي من هذه العناصر إلى تعطيل ترقيات اللاعب المشتراة لهذا المستوى",
+
+"LevelCopyCreated":"سيتم إنشاء نسخة من المستوى الذي تم تحميله مسبقًا",
+
+"LevelDeleteConfirmation": "هل تريد حذف هذا المستوى؟",
+"EditorLevelSelectionHeader": "مستوياتك",
+"MainMenuOtherPlayersButton": "مستويات اللاعبين",
+
+"Delay": "التأخير",
+"EditorControlledBombDesc": "قنبلة يتم التحكم فيها عن بعد",
+"EditorPressDesc": "الضغط الهيدروليكي",
+
+	"EditorMoveItemHeader": "اختر موقعًا جديدًا",
+	
+"EditorBoulderDesc":"بولدر",
+
+"EditorLaserHazardDesc":"جدار الليزر",
+"LaserHazardDurationSelector":"مدة",
+
+"EditorTargetSelectHeader": "حدد أهدافًا لـ: {val}",
+
+"PressInitialDelaySelector": "تأخير أولي",
+"PressIntervalSelector": "الفاصل الزمني",
+"PressSpeedSelector": "السرعة",
+
+"LaserTargetToggle": "تبديل الوضع",
+"LaserTargetHold": "وضع الانتظار",
+	
+"ButtonTypeSimpleToggle":"زر التبديل",
+"ButtonTypeHold":"زر قابل للإمساك",
+"ButtonTypeStaysPressed":"زر المرة الواحدة",
+	
+"EditorLaserShooterDesc": "بندقية الليزر",
+"LevelItemSetupHeader": "إعدادات العنصر",
+"EditorLaserMirrorDesc": "مرآة ليزر",
+"LevelItemSetupRotatable": "قابل للتدوير",
+"LevelItemSetupMovable": "منقولة",
+"EditorLaserTargetDesc": "الهدف الليزر",
+"LevelItemSetupCanDamageEnemies": "إتلاف الأعداء",
+"LevelItemSetupCanDamagePlayer": "لاعب الضرر",
+"EditorItemDeleteConfirmation": "هل تريد حذف العنصر؟",
+"EditorGameplayButtonDesc": "زر",
+"EditorControlledGatesDesc": "بوابة المراقبة",
+"LevelItemSetupSelectTargets": "تحديد الأهداف",
+"LevelItemSetupResetTargets": "إعادة تعيين الأهداف",
+"EditorPitfallDesc": "فخ",
+"LevelItemSetupActiveAtStart": "نشط عند البدء",
+	
+	
+	
+"SettingsFancySmileys": "الرموز التعبيرية للعدو",
+"PrivateGameCreated": "تم إنشاء اللعبة بنجاح!\nيجب على اللاعبين الآخرين إدخال معرف اللعبة الخاص بك: {val} والنقر على زر \"الانضمام إلى اللعبة\".\n\nمنطقتك هي: {reg}. تأكد من اختيار اللاعبين الآخرين لنفس المنطقة.",
+
+"CloudMenuSaveGame":"حفظ اللعبة",
+"CloudMenuLoadGame":"لعبة تحميل",
+
+"SettingsGlowEffect": "تأثير الوهج",
+
+"UpgradeFlamethrowerHeaderTxt":"قاذف اللهب",
+"UpgradeFlamethrowerPurchasedDescriptionTxt":"قم بزيادة ضرر قاذفة اللهب والذخيرة القصوى",
+"UpgradeFlamethrowerUnpurchaseeDescriptionTxt":"أشعل النار في دبابات العدو!",
+"EditorItemDescriptionWoodblock":"كتلة خشبية",
+"EditorSpawner11Desc":"مستوى قاعدة العدو 11",
+"EnemyTank11Desc":"خزان قاذف اللهب",
+"EnemyBoss11Desc":"رئيس قاذف اللهب",
+"EnemyTurret11Desc":"برج قاذف اللهب",
+
+"TutorialBonusFreeze":"مكافأة التجميد",
+"TutorialBonusRepairUnit":"مكافأة إصلاح الخزان",
+"EditorItemDescriptionBomb":"مكافأة القنبلة",
+"TutorialBonusRevealMap":"المكافأة: كشف الخريطة",
+"TutorialBonusDoubleDamage":"المكافأة: ضرر مزدوج",
+"TutorialBonusCloak":"المكافأة: الخفاء",
+
+
+
+"BonusShotgunAmmo":"ذخيرة بندقية",
+"BonusRicochetAmmo":"الذخيرة المرتدة",
+"BonusBlasterAmmo":"ذخيرة ناسفة",
+"BonusPrismAmmo":"ذخيرة المنشور",
+"BonusMinigunAmmo":"ذخيرة صغيرة",
+"BonusCannonAmmo":"ذخيرة المدفع",
+"BonusHomingMissileAmmo":"ذخيرة صاروخ موجه",
+"BonusLaserAmmo":"ذخيرة الليزر",
+"BonusGuidedMissileAmmo":"ذخيرة الصواريخ الموجهة",
+"BonusRailgunAmmo":"ذخيرة حديدية",
+"BonusMinesAmmo":"ذخيرة الألغام",
+"BonusFlamethrowerAmmo":"ذخيرة قاذف اللهب",
+
+"MultiplayerStartingGame":"بدء اللعبة","MultiplayerPlayerSettings":"إعدادات المشغل","MpRewardNonWinner":"انتهت المباراة","MpRewardWinner":"رائع! المركز الأول!","PrvRIDOnlyNumbers":"استخدم فقط الأرقام","MpAmountComment":"يعتمد مقدار المكاسب متعددة اللاعبين على تقدم حملتك الحالي","ForceStartIn":"ستبدأ اللعبة تلقائيًا في: {val}","PlsUpdateGame":"يرجى تحديث اللعبة.","TimporarilyDisabled":"موقوف مؤقتا","MultiplayerDisabled":"متعددة اللاعبين معطلة. هناك شيء علينا العمل عليه. فقط القليل من الوقت. شكرا جزيلا!","CheckInternetConnection":"تحقق من الاتصال بالإنترنت وأعد المحاولة","MultiplayerRoomExists":"توجد بالفعل غرفة بهذا المعرف","MultiplayerRoomDoesNotExist":"لا توجد لعبة بالمعرف \"{val}\".\n\nتأكد من تحديد نفس المنطقة. يمكن للمضيف رؤية منطقته في الزاوية اليمنى العليا من الشاشة.","CampaignButton":"حملة","EditorButton":"محرر","PrivateLobbyNotReady":"ليس كل لاعب جاهزا","PrivateLobbyKicked":"تمت إزالتك من قبل مضيف اللعبة","PrivateLobbyKick":"إزالة","PrivateLobbyReady":"جاهز","PrivateLobbyStart":"بدء اللعبة","MultiplayerRoomIDValidationWrongChars":"يمكن أن يحتوي اسم الغرفة على أحرف وأرقام باللغة الإنجليزية فقط.","MultiplayerRoomIDValidationMaxLength":"يجب ألا يتجاوز طول اسم الغرفة {val} حرفًا","MultiplayerRoomIDValidationMinLength":"يجب ألا يقل اسم الغرفة عن {val} حرفًا","MultiplayerJoinGame":"انضم للعبة","MultiplayerCreateGame":"ابتكر لعبة","MultiplayerEnterGameID":"أدخل معرف اللعبة","MultiplayerMatchResultsScore":"اقتل العد","MultiplayerMatchResultsPlayer":"لاعب","MultiplayerDisconnected":"حدث خطأ ما ، آسف لذلك.","MultiplayerMatchResultsHeader":"نتائج المباريات","MultiplayerWaitingForPlayers":"في انتظار اللاعبين","MultiplayerJoiningGame":"الانضمام إلى اللعبة","MultiplayerModesComingSoon":"المزيد من الأوضاع قريبًا!","MultiplayerReportProblem":"الإبلاغ عن مشكلة متعددة اللاعبين","MultiplayerPrivateGame":"العب مع الاصدقاء","MultiplayerGlobalGame":"مناوشة","MultiplayerSettingsHeader":"متعددة","AuthDialogCheckConnection":"يرجى التحقق من اتصال الإنترنت","AuthDialogWaitingServer":"ارجوك انتظر...","AuthDialogWaitingSocial":"تسجيل الدخول...","AuthDialogLoginRequiredSocialService":"مطلوب تسجيل الدخول باستخدام {val} . المضي قدما في تسجيل الدخول؟","PlayerJoined":"انضم اللاعب {val} إلى اللعبة","PlayerDisconnected":"{val} تم قطع اتصال اللاعب","SpeedUpgLevel":"{val} ترقية سرعات مستوى","ArmorUpgLevel":"{val} ترقية درع مستوى","FailedSocialLogin":"{servicename} فشل تسجيل الدخول إلى","SettingsEnemiesVision":"أظهر رؤية الأعداء","WeaponSelectTutorSimpleControls":"انقر لتحديد السلاح","NewTutorTapToMove":"انقر في أي مكان للقيادة هناك","NewTutorTapToShoot":"اضغط على أي هدف للهجوم","ControlsSettingsArcadeControls":"ضوابط الممرات","ControlsSettingsStrategyControls":"ضوابط الاستراتيجية","TapControlsDrawPath":"رسم المسار","ControlsSettingsStrategyControlsExplanation":"انقر في أي مكان للقيادة أو الهجوم","ControlsSettingsArcadeControlsExplanation":"لوحة ألعاب افتراضية","LogInInitiatedMsg":"تسجيل الدخول","SuccessfulSocialLogin":"تسجيل ناجح.","SettingsLockCenter":"قفل المركز","ReviveTankHeader":"أتريد إصلاح الدبابة؟","ReviveTankDescription":"شاهد إعلان فيديو المكافأة لإصلاح دبابتك","ReviveTankWatchVideo":"مشاهدة الفيديو","FreeWeapon":"سلاح مجاني!","DeleteDataConfirmation":"هل أنت متأكد أنك تريد حذف بياناتك؟ يتضمن هذا بيانات اللعبة المحفوظة.","PrivacySettings":"إعدادات الخصوصية","DeleteMyData":"حذف البيانات","PersonalizedAds":"الإعلانات المخصصة","NonPersonalizedAds":"الإعلانات غير المخصصة","GDPRHeader":"قبل أن نبدأ","GDPRDescription":"لبدء تدمير الدبابات، يجب عليك قبول شروط الخدمة الخاصة بنا.","GDPRTermsOfService":"شروط الخدمة","GDPRTapToRead":"(انقر هنا للقراءة)","GDPRAccept":"قبول","AgeSelectionContinue":"متابعة","SelectBirthYear":"حدد سنة ميلادك","ControlsSettingsReset":"إعادة تعيين الإعدادات","ShareLevelPrefix":"العب المستوى الخاص بي في \"Awesome Tanks\".","ShareLevelName":"اسم المستوى هو {levelname} .","ShareLevelId":"أدخل رقم المستوى {levelId} في قائمة مستويات اللاعبين لتلعب.","ShareLevelDownload":"تثبيت اللعبة:","ShareGeneral":"العب \"Awesome Tanks\".","SavegameFailed":"فشل حفظ اللعبة. قد لا تتوفر مساحة كافية على جهازك.","RewadCoinsMultiplierText":"شاهد إعلان فيديو واحصل على x{multiplier} قطع نقدية.","CantPlacePortalMaxReached":"تم الوصول إلى أقصى عدد من البوابات.","ColorPickerHeaderBody":"الهيكل","ColorPickerHeaderTurret":"البرج","PrivacyPolicy":"سياسة الخصوصية","EnableAutosave":"حفظ تلقائي","EnableAutosaveDescription":"لا يعمل الحفظ التلقائي إلا إذا كان التقدم الحالي أفضل من التقدم السحابي.","SocialAuthInProgress":"{servicename} يرجى الانتظار، يجري تسجيل دخول","TankColors":"تلوين الدبابة","FeedbackConfirmation":"أتريد الاتصال بالدعم؟","UserlevelsPeriodWeekly":"أسبوعيًا","UserlevelsPeriodMonthly":"شهريًا","ConfirmLevelReport":"هل يوجد خطأ في هذا المستوى؟","ThanksForLevelReport":"شكرًا على إخبارنا.","YouHaveReceivedCoins":"لقد استلمت قطعًا نقدية:","LevelsCompletedOverride":"تم ضبط المستويات المكتملة على:","LanguageButton":"اللغة","PromoHeader":"عرض لفترة محدودة!","PromoDesc":"احصل على قطع نقدية مضاعفة في المتجر.","NonIntLevelIdTextError":"أدخل معرف المستوى كرقم صحيح.","CloudSaveTutorial":"احفظ تقدمك في السحابة. ولن تخسره وستتمكن من المتابعة من حيث توقفت على جهاز آخر. اضغط على زر السحابة.","LogInToSocialServices":"يمكنك تسجيل الدخول لتتمكن من حفظ اللعبة إلى السحابة وتعيين الدرجات العالية.","UnknownItemsUpdateGame":"حدث خطأ: تم العثور على عناصر مستوى غير معروفة.\nيرجى تحديث اللعبة.","FeedbackThankYou":"شكرًا لملاحظاتك.","FeedbackError":"حدث خطأ ما...\nحاول مرة أخرى لاحقًا.","EmptyFeedback":"الرجاء إدخال بعض النص في الملاحظات","FeedbackTextPlaceholder":"اكتب هنا...","FeedbackHeader":"أخبرنا عن رأيك.","Purchased":"تم الشراء","NewUpgradesAvailable":"تتوفر ترقيات جديدة.","ConfirmExitGame":"هل تريد إنهاء اللعبة؟","SuccessfulAttampts":"محاولات ناجحة","LevelListLoadingItemText":"جارٍ التحميل","LoadingUserLevels_Hardest":"جارٍ التحميل\nأصعب المستويات","LoadingUserLevels_Latest":"جارٍ التحميل\nأحدث المستويات","LoadingUserLevels_MostLiked":"جارٍ التحميل\nالمستويات الأكثر إعجابًا بها","LoadingUserLevels_MostPlayed":"جارٍ التحميل\nالمستويات الأكثر لعبًا","LoadingUserLevels_Random":"جارٍ التحميل\nمستويات عشوائية","LoadingUserLevels_My":"جارٍ التحميل\nمستوياتك","PrizeReady":"مستعد!","SettingsShowGamepads":"إظهار منصات اللعبة","SettingsHeader":"الإعدادات","SettingsAutoaim":"التصويب الآلي","SettingsSensitivity":"الحساسية","SettingsScreenShake":"اهتزاز الشاشة","SettingsScreenFlashes":"ومضات الشاشة","SettingsEngineSound":"صوت المحرك","SettingsFancyExplosions":"الانفجارات الوهمية","SettingsAutoaimOffCoinsPercentage":"+{0}% قطع نقدية\nفي حالة إيقاف التشغيل","SettingsControls":"أزرار التحكم","ControlsSettingsControlsType":"نوع أزرار التحكم","ControlsSettingsDynamicControls":"ديناميكي","ControlsSettingsStaticControls":"ثابت","ControlsSettingsDynamicControlsExplanation":"مراكز حيث تم النقر","ControlsSettingsStaticControlsExplanation":"مركز ثابت","ControlsSettingsRecommended":"(موصى بها)","ControlsSettingsStaticCenters":"الوضع","StatiControlsSettingsHeader":"إعدادات أزرار التحكم الثابتة","StatiControlsSettingsDescription":"انقر على المناطق المعنية لإعداد المراكز","DevelopedBy":"تم التطوير بواسطة","MusicBy":"إعداد الموسيقى","FontsUsed":"الخطوط المستخدمة","TutorialBonusCrate":"صندوق المكافأة","TutorialBarrel":"برميل متفجر","TutorialBonusFreeze":"تجميد الأعداء","TutorialBonusRevealMap":"كشف الخريطة","TutorialBonusCloak":"مكافأة الاختفاء","TutorialBonusDoubleDamage":"ضرر مضاعف","TutorialBonusRepairUnit":"إصلاح الوحدة","TutorialBonusAmmo":"مكافأة الذخيرة","TutorialBlocks":"تدمير هذه المباني","TutorialSpawner":"تدمير معمل التفريخ","TutorialCoins":"اجمع القطع النقدية لشراء ترقيات","MoveTutorialHeader":"نقل المنطقة","MoveTutorialDescr":"انقر واسحب إلى هنا للنقل","AutoaimTutorialHeader":"التصويب الآلي","AutoaimTutorialDescr":"اضغط مع الاستمرار ولا تحرك إصبعك","ShootTutorialHeader":"منطقة إطلاق النار","ShootTutorialDescr":"انقر واسحب إلى هنا لإطلاق النار","StaticMoveTutorialHeader":"الحركة","StaticMoveTutorialDescr":"استخدم عصا التحكم اليسرى","StaticAutoaimTutorialHeader":"التصويب الآلي","StaticAutoaimTutorialDescr":"اضغط مع الاستمرار على مركز عصا التحكم اليمنى","StaticShootTutorialHeader":"إطلاق النار","StaticShootTutorialDescr":"استخدم عصا التحكم اليمنى","GameplayUICombo":"المجموعة","GameplayUIProfit":"الربح","WeaponSelectTutor":"واصل الضغط لأجل\nتحديد\nالسلاح","UpgradeArmorTutorial":"لا تنس\nلترقية\nالدرع!","UpgradeMachinegunTutorial":"انقر هنا\nلترقية\nمدفع رشاش!","PrizeTutorialMsg":"انظر!\nجائزتك.\nجاهز!","ArenaLockedMessage":"أكمل المزيد\nمستويات لفتح\nهذا الوضع","ArenaUnlockedText":"اكسب المزيد من القطع النقدية في مستويات الساحة. في كل مرة تلعب فيها، يتم إنشاء مستوى عشوائي جديد لك. ويمنحك الأعداء في هذه المستويات نسبة 25% إضافية من القطع النقدية.","MoreLevelsSoonText":"قريبًا! في الوقت نفسه، تحقق من مستويات اللاعبين الآخرين.","SurvivalLockedMessage":"أكمل المزيد\nمستويات لفتح\nهذا الوضع","RestorePurchasesText":"استعادة\nالمشتريات","PurchasesRemoveAdsText":"أي عملية شراء داخل التطبيق تزيل الإعلانات داخل اللعبة","NewAchievementText":"جديد\nالإنجاز!","ShopHeaderText":"القطع النقدية","AchievementsHeaderText":"الإنجازات","LevelSelectHeaderText":"تحديد المستوى","UpgradesCoinsText":"القطع النقدية","UpgradesWeaponsText":"الأسلحة","UpgradesTankText":"الدبابة","LogInToText":"تسجيل الدخول إلى","ToViewLeaderboardsText":"لعرض المتصدرين","LogInText":"تسجيل الدخول","WatchShortVideoForText":"شاهد إعلان فيديو قصير لأجل","CoinsNom":"القطعة النقدية","CoinsGen":"القطع النقدية","CoinsPlu":"القطع النقدية","CoinsSingle":"القطعة النقدية","GameplaysNom":"اللعب","GameplaysGen":"الألعاب","GameplaysPlu":"الألعاب","GameplaysSingle":"اللعب","LikesNom":"إعجاب","LikesGen":"إعجابات","LikesPlu":"إعجابات","LikesSingle":"إعجاب","UpgradeSpeedHeaderTxt":"السرعة","UpgradeSpeedDescriptionTxt":"قم بترقية سرعة الدبابة للتنقل بشكل أسرع.","UpgradeArmorHeaderTxt":"الدرع","UpgradeArmorDescriptionTxt":"قم بترقية درع الدبابة لحماية من أي ضرر إضافي.","UpgradeMachinegunHeaderTxt":"مدفع رشاش","UpgradeMachinegunDescriptionTxt":"قم بزيادة الضرر الناجم عن المدفع الرشاش عن طريق هذه الترقية.","UpgradeShotgunHeaderTxt":"البندقية","UpgradeShotgunPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن بندقيتك وعدد الذخيرة عن طريق هذه الترقية.","UpgradeShotgunUnpurchaseeDescriptionTxt":"انشر الضرر الذي تتعامل معه بدرجة أكبر.","UpgradeMinigunHeaderTxt":"بندقية صغيرة","UpgradeMinigunPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن بندقيتك الصغيرة وعدد الذخيرة عن طريق هذه الترقية.","UpgradeMinigunUnpurchaseeDescriptionTxt":"مزق أعداءك إلى قطع باستخدام هذا السلاح.","UpgradeCannonHeaderTxt":"المدفع","UpgradeCannonPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن مدفعك وعدد الذخيرة عن طريق هذه الترقية.","UpgradeCannonUnpurchaseeDescriptionTxt":"دمر دبابات العدو بقذائف متفجرة.","UpgradeHomingMslHeaderTxt":"الصواريخ الموجهة","UpgradeHomingMslPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن بندقيتك الصغيرة وعدد الذخيرة عن طريق هذه الترقية.","UpgradeHomingMslUnpurchaseeDescriptionTxt":"اضرب أعدائك من خلف ستار. من الصعب الاختباء من هؤلاء.","UpgradeMinesHeaderTxt":"الألغام","UpgradeMinesPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن الألغام وعدد الذخيرة عن طريق هذه الترقية.","UpgradeMinesUnpurchaseeDescriptionTxt":"اجذبهم إلى الألغام الصغيرة الخادعة وشاهدهم وهم ينفجرون.","UpgradeGuidedMslHeaderTxt":"القذائف الموجهة","UpgradeGuidedMslPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن القذائف الموجهة وعدد الذخيرة عن طريق هذه الترقية.","UpgradeGuidedMslUnpurchaseeDescriptionTxt":"سلاحك التكتيكي. تصيّد أعدائك من الزاوية القريبة باستخدام هذه الصواريخ التي يمكن التحكم فيها.","UpgradeLaserHeaderTxt":"الليزر","UpgradeLaserPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن الليزر والذخيرة عن طريق هذه الترقية.","UpgradeLaserUnpurchaseeDescriptionTxt":"اخترق دروعهم وقم بإذابتهم إلى برك من الطين.","UpgradeRailgunHeaderTxt":"المدفع الكهرومغناطيسي","UpgradeRailgunPurchasedDescriptionTxt":"قم بزيادة الضرر الناجم عن المدفع الكهرومغناطيسي والذخيرة عن طريق هذه الترقية.","UpgradeRailgunUnpurchaseeDescriptionTxt":"هل أردت في أي وقت تدمير عدة دبابات بطلقة واحدة؟ حسنًا يمكنك فعل ذلك بهذه اللعبة الصغيرة.","UpgradeRicochetHeaderTxt":"القذيفة المرتدة","UpgradeRicochetPurchasedDescriptionTxt":"قم بتحسين عدد القذائف المرتدة والضرر والذخيرة.","UpgradeRicochetUnpurchaseeDescriptionTxt":"استخدم هذا السلاح لإثبات تفوقك التكتيكي.","UpgradeTripleHeaderTxt":"الناسف","UpgradeTriplePurchasedDescriptionTxt":"قم بتحسين أضرار الناسف وعدد الذخيرة.","UpgradeTripleUnpurchaseeDescriptionTxt":"يعمل بشكل رائع ضد أسراب الدبابات.","UpgradeShockerHeaderTxt":"الموشور","UpgradeShockerPurchasedDescriptionTxt":"قم بتحسين الضرر الناجم عن المنشور والذخيرة وطول شعاع الضوء.","UpgradeShockerUnpurchaseeDescriptionTxt":"اجعل ضوءًا مدمرًا يرتد على عدة أعداء في وقت واحد.","TankBankNameText":"بنك الدبابات","ShopDoubleCoinsText":"ضاعف القطع النقدية.","ThankYouText":"شكرًا لك","ForYourPurchaseText":"لعملية الشراء الخاصة بك!","PurchaseFailedText":"عذرًا، حدث خطأ ما. لم يكتمل الشراء.","TankmanTipText1":"دحرج برميلاً متفجرًا إلى العدو أثناء الاختباء خلفه.","TankmanTipText2":"يمكنك الاختباء في الشجيرات. لا يستطيع الأعداء رؤيتك هناك إلا إذا كانوا يقودون بالقرب منك فعلاً.","TankmanTipText3":"سيطر على القذائف الموجهة كما تقود دبابتك. وأطلقها من مكان بعيد لتظل غير مرئي.","TankmanTipText4":"تمنحك ترقيات الأسلحة المزيد من الذخيرة وتزيد الضرر.","TankmanTipText5":"اضغط باستمرار على زر الإطلاق لتشغيل التصويب الآلي.","TankmanTipText6":"إذا قمت بتعطيل التصويب الآلي في الإعدادات، فستكسب {0} قطع نقدية إضافية!","TankmanTipText8":"تحتوي المستويات في بعض الأحيان على غرف سرية مليئة بالقطع النقدية. انتبه للجدران الخرسانية.","TankmanTipText9":"حاول تدمير معامل التفريخ لدى العدو قبل أن تفرخ كل الأعداء.","TankmanTipText10":"تجنب المعارك المفتوحة مع الأعداء في الممرات الضيقة والغرف الصغيرة. قم بإغرائهم ودمرهم في الأماكن المفتوحة.","TankmanTipText11":"حاول تجنب المعارك المباشرة مع الأعداء المجهزين بالمدفع الكهرومغناطيسي والليزر. اكتشفهم وأطلق النار من خلف ستار.","TankmanTipText12":"لا تقف فحسب أثناء القتال. تجول في كل أرجاء المكان وحول الأعداء. *signs* تجعل رأسي تدور...","TankmanTipText13":"إذا أطلقت قذيفة موجهة، فانقر على منطقة إطلاق النار مرة أخرى لتنفجر في الهواء إذا أردت.","TankmanTipText14":"توجد دبابة خاصة تظهر فقط في وضع الساحة. وتتطلب معاملة خاصة للحصول على أقصى استفادة منها.","TankmanTipText15":"يمكنك إيقاف تشغيل منصات الألعاب في قائمة الإعدادات.","TankmanTipText16":"لا تنس أن تحفظ إلى السحابة من القائمة الرئيسية.","TankmanTipText17":"سوف تجعلك المستويات العليا تكسب المزيد من القطع النقدية.","TankmanTipText18":"يمكنك ضبط أزرار التحكم في قائمة الإعدادات.","TankmanTipText19":"استخدم القذائف الموجهة لتدمير أشد الأعداء.","PleaseRateOurGameText":"يرجى تقييم لعبتنا.","FeedbackMeansALotText":"تعني ملاحظاتك الكثير بالنسبة لنا فعلاً.","DontAskAgainText":"عدم السؤال مرة أخرى","LevelsCompleteAwesomeText":"رائع!","AllLevelsCompleteText":"اكتملت كل المستويات.","LevelsCompleteBottomText":"كسب المزيد من المال للترقيات المستقبلية في مستويات الساحة.","EditorSceneryButtonTxt":"scn","EditorCompleteToShare":"أكمل مستواك أولاً لمشاركته.","EditorStartingPointNotSpecified":"لم يتم تحديد نقطة بداية اللاعب.","EditorCongratsWon":"تهانينا. لقد فزت.","EditorAddEnemies":"حاول الآن إضافة أعداء أو هدف مستوى.","EditorTooManyEnemies":"الكثير من الأعداء، قد يكون معدل الإطارات منخفضًا.","EditorProceedTesting":"هل تريد المتابعة إلى الاختبار؟","EditorDrawMode":"وضع السحب","EditorScrollMode":"وضع التمرير","EditorClearLevel":"هل المستوى واضح؟\nسيتم مسح كل بيانات المستوى الحالي.","EditorItemDescription1":"معمل تفريخ المستوى 1","EditorItemDescription2":"معمل تفريخ المستوى 2","EditorItemDescription3":"معمل تفريخ المستوى 3","EditorItemDescription4":"معمل تفريخ المستوى 4","EditorItemDescription5":"معمل تفريخ المستوى 5","EditorItemDescription6":"معمل تفريخ المستوى 6","EditorItemDescription7":"معمل تفريخ المستوى 7","EditorItemDescription8":"برج المدفع الرشاش","EditorItemDescription9":"برج البندقية","EditorItemDescription10":"برج البندقية الصغيرة","EditorItemDescription11":"برج المدفع","EditorItemDescription12":"برج الصاروخ الموجه","EditorItemDescription13":"برج الليزر","EditorItemDescription14":"برج المدفع الكهرومغناطيسي","EditorItemDescription15":"سيد المدفع الرشاش","EditorItemDescription16":"سيد البندقية","EditorItemDescription17":"سيد البندقية الصغيرة","EditorItemDescription18":"سيد المدفع","EditorItemDescription19":"سيد الصاروخ الموجه","EditorItemDescription20":"سيد الليزر","EditorItemDescription21":"سيد المدفع الكهرومغناطيسي","EditorItemDescription22":"الجدار","EditorItemDescription23":"الجدار المسلح","EditorItemDescription24":"الجدار غير القابل للتدمير","EditorItemDescription25":"كتلة الجدار السري","EditorItemDescription26":"جدار البوابات","EditorItemDescription27":"مسح","EditorItemDescription28":"صندوق المكافأة","EditorItemDescription29":"برميل متفجر","EditorItemDescription30":"بدء اللاعب","EditorItemDescription31":"شجيرة","EditorItemDescription32":"دبابة بمدفع رشاش","EditorItemDescription33":"دبابة ببندقية","EditorItemDescription34":"دبابة ببندقية صغيرة","EditorItemDescription35":"دبابة بمدفع","EditorItemDescription36":"دبابة بصاروخ موجه","EditorItemDescription37":"دبابة بالليزر","EditorItemDescription38":"دبابة بمدفع كهرومغناطيسي","EditorItemDescription39":"دبابة بقذيفة مرتدة","EditorItemDescription40":"دبابة بناسف","EditorItemDescription41":"دبابة بموشور","EditorItemDescription42":"سيد القذيفة المرتدة","EditorItemDescription43":"سيد الناسف","EditorItemDescription44":"سيد الموشور","EditorItemDescription45":"برج القذيفة المرتدة","EditorItemDescription46":"برج الناسف","EditorItemDescription47":"برج الموشور","EditorItemDescription48":"معمل تفريخ المستوى 8","EditorItemDescription49":"معمل تفريخ المستوى 9","EditorItemDescription50":"معمل تفريخ المستوى 10","EditorItemDescription51":"شاحنة تجريبية بتحكم عن بعد","EditorItemDescription52":"البوابة","EditorResizeHeader":"تغيير حجم المستوى","EditorResizeHeight":"الارتفاع:","EditorResizeWidth":"العرض:","EditorSceneryHeader":"تحديد المنظر","EditorSummer":"الصيف","EditorDesert":"صحراء","EditorWinter":"الشتاء","EditorItemSelectionHeader":"تحديد عنصر","TankBankDescriptionTxt":"احصل على قطع نقدية مضاعفة. إزالة الإعلانات داخل اللعبة. قم بترقية دباباتك وأسلحتك بشكل أسرع.","PrizePerfectUnboxing":"الإخراج من العلبة المثالي.","PrizeAwesome":"رائع!","PrizeOuch":"آوتش!","PrizeGreat":"رائـع!","PrizeNice":"جيد!","RewadSelectPrizeBox":"حدد صندوق جائزتك.","RewadSomethingWrong":"حدث خطأ ما في الإعلان. نأسف لذلك.","RewadDoNotSkip":"يرجى عدم تخطي إعلان فيديو المكافأة للحصول على مكافأتك.","RewadPretendNotSkip":"دعنا نتظاهر أنك لم تتخطاه هذه المرة.","RewadDoubleAwesomeness":"روعة مضاعفة!","MessageNewEditorItemsAvailable":"محرر المستوى الجديد\nالعناصر المتاحة!","MessageToEnableGameSaving":"لتمكين حفظ اللعبة.","MessageYouHaveReceivedAnItem":"لقد تلقيت عنصرًا:","EditorItemLockedTxt":"أكمل المزيد من المستويات لإلغاء قفل هذا العنصر.\nتفتح أي عملية شراء داخل التطبيق كل شيء.","MessageEnterPlayerName":"يرجى إدخال اسم اللاعب.","MessageEnterLevelName":"يرجى إدخال اسم المستوى.","MessageEnterLevelID":"يرجى إدخال معرف المستوى.","MessageCloudLoadSuccess":"نجح التحميل.","MessageCloudLoadFailed":"فشل التحميل. الأسباب المحتملة:\nلا يوجد اتصال بالإنترنت.\nإصدار اللعبة قديم. تحقق من التحديثات.","MessageCloudSaveSuccess":"تم الحفظ بنجاح.","MessageCloudSaveFailed":"فشل الحفظ.\nيرجى التحقق من اتصالك بالإنترنت.","MessageCloudSaveTimeout":"عذرًا، حدث خطأ ما.","CloudProcessingDataTxt":"جارٍ معالجة البيانات...","CloudMenuHeader":"النسخ الاحتياطي السحابي","CloudNotAvailebleTxt":"غير متاح","LoadUserLevelHeader":"تحميل مستوى المستخدم","EnterLevelIDTxt":"إدخال معرف المستوى:","LevelIDPlaceholderTxt":"معرف المستوى...","LoadingCustomLevelTxt":"تحميل مستوى المستخدم المخصص","LoadingCustomFailed":"فشل تحميل مستوى المعرف المحدد.","LoadingCustomIncompatible":"مستوى غير متوافق. يرجى التحقق من التحديثات المتاحة.","LoadingCustomNoLevelForID":"فشل تحميل مستوى المعرف المحدد.","LoadingLevelInfo":"جارٍ التحميل","CustomLevelWasPlayed":"عدد مرات اللعب:","CustomLevelWasNeverPlayed":"كن أول من يلعب هذا المستوى.","OwnCustomLevelWasNeverPlayed":"لم يلعب أحد هذا المستوى حتى الآن.","CustomLevelPercentSuccessful":"{0}% محاولات ناجحة.","UploadLevelHeader":"تحميل المستوى","UploadLevelDescTxt":"إدخال معلومات المستوى:","EnterNamePlaceholder":"أدخل اسمك...","EnterLevelNamePlaceholder":"أدخل اسم المستوى...","LevelUploadFailTxt":"حدث خطأ. يُرجى المحاولة مرة أخرى لاحقًا.","LevelUploadCompleteTxt":"اكتمل التحميل.","LevelIDIsTxt":"معرف المستوى هو:","CloudLoadConfirmation":"هل تريد تحميل بيانات الحفظ في السحابة؟\nسيتم الكتابة فوق التقدم الحالي","CloudSaveConfirmation":"هل تريد حفظ البيانات إلى السحابة؟\nسيتم الكتابة فوق تقدم السحابة","AchievementsHeader":"الإنجازات","TapAchievementForDetails":"انقر على الإنجاز لعرض التفاصيل.","AchievementHeader1":"مدمرة الدبابات","AchievementDescr1":"دمر دبابات العدو لكسب هذا الإنجاز.","AchievementHeader2":"مجموعة رائعة.","AchievementDescr2":"نفذ مجموعات رائعة لكسب هذا الإنجاز.","AchievementHeader3":"مدمر البرميل","AchievementDescr3":"فجر المزيد من البراميل المتفجرة لكسب هذا الإنجاز.","AchievementHeader4":"صائد المكافآت","AchievementDescr4":"حطم المزيد من صناديق المكافآت لكسب هذا الإنجاز.","AchievementHeader5":"ربحت!","AchievementDescr5":"اجمع المزيد من القطع النقدية لكسب هذا الإنجاز.","AchievementHeader6":"حامل الصاروخ.","AchievementDescr6":"تصيّد المزيد من الأعداء بالقذائف الموجهة لكسب هذا الإنجاز.","AchievementHeader7":"متجنب الصواريخ","AchievementDescr7":"راوغ الصواريخ الموجهة للأعداء لكسب هذا الإنجاز.","AchievementHeader8":"الفائز","AchievementDescr8":"أكمل المزيد من المستويات (أي وضع) لكسب هذا الإنجاز.","AchievementHeader9":"رامٍ ماهر","AchievementDescr9":"أكمل المستوى بدقة كبيرة لكسب هذا الإنجاز.","AchievementHeader10":"زارعة الألغام","AchievementDescr10":"اجذب المزيد من الأعداء إلى ألغامك لكسب هذا الإنجاز.","AchievementHeader11":"المثقب","AchievementDescr11":"دمر العديد من الأعداء بطلقة واحدة من المدفع الكهرومغناطيسي لكسب هذا الإنجاز.","AchievementHeader12":"المبيد","AchievementDescr12":"دمر معامل تفريخ العدو لكسب هذا الإنجاز.","AchievementHeader13":"الناجي","AchievementDescr13":"أكمل أي مستوى بأقل كمية ممكنة من القوة لكسب هذا الإنجاز.","AchievementHeader14":"قتل الوقت","AchievementDescr14":"اقض المزيد من الوقت في لعب Awesome Tanks لكسب هذا الإنجاز.","AchievementHeader15":"مدمر البرج","AchievementDescr15":"دمر المزيد من أبراج العدو لكسب هذا الإنجاز.","AchievementHeader16":"المدمِّر","AchievementDescr16":"دمر المزيد من مناظر المستوى لكسب هذا الإنجاز.","ObjectiveCompleteTxt":"اكتمل الهدف.","ObjectiveType1":"جمع القطع النقدية","ObjectiveType2":"تدمير الطوب","ObjectiveType3":"تدمير الصناديق","ObjectiveType4":"تدمير معامل تفريخ العدو","ObjectiveType5":"تدمير دبابات العدو","ObjectiveType6":"تدمير أبراج العدو","ObjectiveType7":"تدمير البراميل المتفجرة","PausedText":"متوقف مؤقتًا","ProfitCaps":"الربح","LevelCompleteText":"اكتمل المستوى","GameOverText":"انتهت اللعبة","NewLevelComplete":"اكتمل المستوى الجديد","LevelFailed":"تم تدمير دبابتك","LVPrefix":"المستوى","StatTip1Pt1":"لقد فجرت {0} براميل.","StatTip2Pt1":"أفضل طول مجموعة لديك هو {0} .","StatTip3Pt1":"لقد دمرت {0} صناديق مكافآت.","StatTip4Pt1":"لقد جمعت {0} قطعة نقدية.","StatTip5Pt1":"لقد راوغت {0} صواريخ أعداء.","StatTip6Pt1":"لقد دمرت {0} معامل تفريخ للعدو.","StatTip7Pt1":"لقد دمرت {0} دبابات للعدو.","StatTip8Pt1":"لقد دمرت {0} أبراج ثابتة للعدو.","FailoverTip":"يا له من يوم رائع لتدمير بعض الدبابات.","SurvivalKillsTxt":"الدبابات المدمرة:","CustomLevelPlayedId":"معرف المستوى:","SurvivalUnlockedHeader":"تم فتح وضع البقاء على قيد الحياة.","SurvivalUnlockedDescr":"حارب بطريقتك عبر أعداء لا حصر لهم وانظر كم من الوقت يمكنك البقاء على قيد الحياة.","ArenaUnlockedHeader":"تم فتح وضع الساحة.","CheckOutNewUserLevelsMenu":"تحقق من قائمة مستويات المستخدم الجديدة.","UserLevelsAPIErrorMsg":"يا للهول! حدث خطأ ما.\nيُرجى المحاولة مرة أخرى لاحقًا.","UserLevelsNoOwnLevelsMsg":"لم تقم بتحميل أي مستويات.","UserLevelsMenuHeader":"مستويات المستخدم","APIErrorMessage":"حدث خطأ ما.\nيُرجى المحاولة مرة أخرى لاحقًا.","SuccessfulVoteMsg":"شكرًا على التصويت.","AlreadyVotedMsg":"لقد سبق أن صوت بالفعل\nلهذا المستوى.","RewadNotAvailable":"إعلان الفيديو غير متاح حتى الآن!"}
