@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4717895236866613}
   - component: {fileID: 212019117116718329}
-  - component: {fileID: 60288790721550334}
+  - component: {fileID: 563990851618351389}
+  - component: {fileID: 688481147658552335}
+  - component: {fileID: 2509673104474891327}
   m_Layer: 14
   m_Name: CornerBottomLeft
   m_TagString: Untagged
@@ -86,54 +88,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &60288790721550334
-PolygonCollider2D:
+--- !u!114 &563990851618351389
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721780239882825}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 0ce5edd367c98444494474faf615d95a, type: 2}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 273682297897146399}
+  _maxhealth: 100
+  _health: 0
+  healthBarUI: {fileID: 273682297801190575}
+--- !u!54 &688481147658552335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721780239882825}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0899999, y: 1.0899999}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.545, y: 0.545}
-      - {x: -0.545, y: -0.545}
-      - {x: 0.545, y: -0.545}
-  m_UseDelaunayMesh: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2509673104474891327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721780239882825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 563990851618351389}
+  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1 &1752842155828693
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +385,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+--- !u!1 &273682297801190575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6848739073373570981, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+  m_PrefabInstance: {fileID: 6685535918813981450}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &273682297897146399 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6848739073536652053, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+  m_PrefabInstance: {fileID: 6685535918813981450}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &273682298662082228 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6848739074368699838, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}

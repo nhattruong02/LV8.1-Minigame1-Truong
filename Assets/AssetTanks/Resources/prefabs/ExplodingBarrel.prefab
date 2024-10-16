@@ -189,7 +189,6 @@ GameObject:
   - component: {fileID: 4258742362090208}
   - component: {fileID: 33666292415954479}
   - component: {fileID: 23283803929141532}
-  - component: {fileID: 3002884853253401019}
   - component: {fileID: 1778700893105173906}
   m_Layer: 0
   m_Name: 3DAvatar
@@ -266,33 +265,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &3002884853253401019
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692829717167905}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
 --- !u!65 &1778700893105173906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -323,9 +295,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4545547903819193}
+  - component: {fileID: 4152364919143276427}
+  - component: {fileID: 3000465568349422245}
+  - component: {fileID: 8010147622293177337}
   m_Layer: 14
   m_Name: ExplodingBarrel
-  m_TagString: DestructableObstacle
+  m_TagString: Destroyable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,6 +322,63 @@ Transform:
   - {fileID: 4258742362090208}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &4152364919143276427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967417597893921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 5550462800059975987}
+  _maxhealth: 100
+  _health: 0
+  healthBarUI: {fileID: 5550462800018554243}
+--- !u!54 &3000465568349422245
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967417597893921}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &8010147622293177337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967417597893921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 4152364919143276427}
+  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1001 &1300607240291826214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -485,6 +517,22 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6848739074368699838, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
   m_PrefabInstance: {fileID: 1300607240291826214}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5550462800018554243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6848739073373570981, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+  m_PrefabInstance: {fileID: 1300607240291826214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5550462800059975987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6848739073536652053, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+  m_PrefabInstance: {fileID: 1300607240291826214}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1303424318285930078
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,12 +9,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Joystick _joystickMove;
     [SerializeField] Joystick _joystickShot;
     [SerializeField] Rigidbody _rb;
-    [SerializeField] float _speed;
+    [SerializeField] float _speedMove;
+    [SerializeField] float _speedBullet;
     [SerializeField] Transform _cannonTank;
     [SerializeField] Transform _spawBulletPoint;
     [SerializeField] Vector3 _offset;
-    [SerializeField] GameObject _bullet;
-
+    private GameObject _bullet;
+    [SerializeField] LeanGameObjectPool _pool;
+    [SerializeField] ParticleSystem _particleSystemSmoke;
+    float attackInterval = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +26,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
-        RotateCannonAndShot();
+        RotateCannon();
         MoveCamera();
+        if(attackInterval >= 0)
+        {
+            attackInterval -= Time.deltaTime;
+        }
     }
 
 
@@ -34,27 +41,44 @@ public class PlayerController : MonoBehaviour
         Camera.main.transform.position = this.transform.position - _offset; 
     }
 
-    private void RotateCannonAndShot()
+    private void RotateCannon()
     {
         if(_joystickShot.Horizontal != 0 || _joystickShot.Vertical != 0)
         {
-            float angle = Mathf.Atan2(_joystickShot.Horizontal, _joystickShot.Vertical) * Mathf.Rad2Deg;
-            _cannonTank.transform.eulerAngles = new Vector3(0, angle, 0);
-            LeanPool.Spawn(_bullet, _spawBulletPoint.transform.position, _spawBulletPoint.transform.rotation);
+            var direction = new Vector3(_joystickShot.Horizontal, 0, _joystickShot.Vertical);
+            direction.y = 0;
+            direction = Camera.main.transform.TransformDirection(direction);
+            Quaternion target = Quaternion.LookRotation(direction);
+            _cannonTank.eulerAngles = new Vector3(0, target.eulerAngles.y, 0);
+            if (direction == Vector3.zero)
+            {
+                _cannonTank.rotation = _cannonTank.rotation;
+            }
+            Shot();
+        }
+    }
+
+    private void Shot()
+    {
+        if (attackInterval <= 0)
+        {
+            _bullet = _pool.Spawn( _spawBulletPoint.position, _spawBulletPoint.rotation);
+            _bullet.GetComponent<Rigidbody>().velocity = _spawBulletPoint.forward * _speedBullet;
+            attackInterval = 0.2f;
         }
     }
 
     private void Move()
     {
-        float horizontalMove = _joystickMove.Horizontal * _speed;
-        float verticalMove = _joystickMove.Vertical * _speed;
+        float horizontalMove = _joystickMove.Horizontal * _speedMove;
+        float verticalMove = _joystickMove.Vertical * _speedMove;
         var direction = new Vector3(horizontalMove, 0, verticalMove);
-        _rb.velocity = Camera.main.transform.TransformDirection(direction);       
+        _rb.velocity = Camera.main.transform.TransformDirection(direction);
         direction.y = 0;
-        if(_joystickMove.Horizontal !=0 ||  _joystickMove.Vertical !=0)
+        if(direction != Vector3.zero)
         {
+             _particleSystemSmoke.Play();
             transform.rotation = Quaternion.LookRotation(_rb.velocity);
         }
-
     }
 }

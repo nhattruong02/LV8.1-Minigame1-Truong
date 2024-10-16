@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 4206038562809492}
   - component: {fileID: 8341483293138768609}
   - component: {fileID: 8138120463229565896}
+  - component: {fileID: 1126492113684529209}
   m_Layer: 14
   m_Name: BonusCrate
   m_TagString: Destroyable
@@ -228,7 +229,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.5964863, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4708827291779230}
@@ -276,8 +277,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 4950816665457633951}
-  _maxhealth: 0
-  _health: 100
+  _maxhealth: 100
+  _health: 0
+  healthBarUI: {fileID: 4950816665279913519}
+--- !u!114 &1126492113684529209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614414011394731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 8138120463229565896}
+  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1 &1679163399642880
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +514,11 @@ PrefabInstance:
 --- !u!224 &4950816664150582324 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6848739074368699838, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
+  m_PrefabInstance: {fileID: 1999402935440824714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4950816665279913519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6848739073373570981, guid: f1419c2a3f5ecf44e824039f908fea60, type: 3}
   m_PrefabInstance: {fileID: 1999402935440824714}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &4950816665457633951 stripped
