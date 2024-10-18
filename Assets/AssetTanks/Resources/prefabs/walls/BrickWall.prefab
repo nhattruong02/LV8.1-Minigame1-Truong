@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 33064449114881116}
   - component: {fileID: 23119355144492842}
   - component: {fileID: 6076379069071606193}
+  - component: {fileID: 9016718851393430755}
+  - component: {fileID: 8354586773020521640}
   m_Layer: 0
   m_Name: 3DAvatar
   m_TagString: Destroyable
@@ -106,6 +108,36 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0552295, y: 1.0454507, z: 1.0440799}
   m_Center: {x: -0.0039827824, y: 0.0003850163, z: 0.49928826}
+--- !u!114 &9016718851393430755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714359567555871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 1865745294346178603}
+  _maxhealth: 50
+  _health: 50
+  healthBarUI: {fileID: 1865745294640293019}
+--- !u!114 &8354586773020521640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714359567555871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 9016718851393430755}
+  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1 &1993416374591921
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,9 +147,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4413775979600475}
-  - component: {fileID: 5982744825007607871}
-  - component: {fileID: 4324890114421833366}
-  - component: {fileID: 2192011851481492164}
   m_Layer: 14
   m_Name: BrickWall
   m_TagString: Untagged
@@ -141,63 +170,6 @@ Transform:
   - {fileID: 4611882789952763}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &5982744825007607871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993416374591921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _healthBar: {fileID: 1865745294346178603}
-  _maxhealth: 100
-  _health: 0
-  healthBarUI: {fileID: 1865745294640293019}
---- !u!54 &4324890114421833366
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993416374591921}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2192011851481492164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993416374591921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _health: {fileID: 5982744825007607871}
-  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1001 &5111566419156345662
 PrefabInstance:
   m_ObjectHideFlags: 0

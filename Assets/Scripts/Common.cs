@@ -10,4 +10,7 @@ public class Common : MonoBehaviour
     public static string BulletEnemy = "BulletEnemy";
     public static string Enemy = "Enemy";
     public static string Player = "Player";
+    public static string Ground = "Ground";
+    public static string Base = "Base";
+    public static string Shot = "Shot";
 }

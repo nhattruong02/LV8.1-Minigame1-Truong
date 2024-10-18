@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 33147448258349384}
   - component: {fileID: 23779801594092031}
   - component: {fileID: 6759111723615930920}
+  - component: {fileID: 2540968250933418205}
+  - component: {fileID: 9220223632227543582}
+  - component: {fileID: 3902548902193596304}
   m_Layer: 0
   m_Name: 3DAvatar
   m_TagString: Destroyable
@@ -106,6 +109,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0578321, y: 1.0592687, z: 1.0481628}
   m_Center: {x: -0.0039003491, y: -0.0007792117, z: 0.5343619}
+--- !u!114 &2540968250933418205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207920824519012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 5518583962650677403}
+  _maxhealth: 50
+  _health: 50
+  healthBarUI: {fileID: 5518583962471916587}
+--- !u!114 &9220223632227543582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207920824519012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 2540968250933418205}
+  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
+--- !u!208 &3902548902193596304
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207920824519012}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.405, y: 0.375, z: 0.52400005}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.004, y: -0.001, z: 0.53400004}
+  m_TimeToStationary: 0.5
 --- !u!1 &1735074216616066
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,9 +164,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4200805339904656}
-  - component: {fileID: 4031617965986567872}
-  - component: {fileID: 7158359867581463482}
-  - component: {fileID: 6527484219425631920}
   m_Layer: 14
   m_Name: HarderBrickWall2
   m_TagString: Destroyable
@@ -141,63 +187,6 @@ Transform:
   - {fileID: 4091370471346034}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!114 &4031617965986567872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735074216616066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _healthBar: {fileID: 5518583962650677403}
-  _maxhealth: 100
-  _health: 0
-  healthBarUI: {fileID: 5518583962471916587}
---- !u!54 &7158359867581463482
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735074216616066}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &6527484219425631920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735074216616066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _health: {fileID: 4031617965986567872}
-  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1001 &1413682810241901454
 PrefabInstance:
   m_ObjectHideFlags: 0

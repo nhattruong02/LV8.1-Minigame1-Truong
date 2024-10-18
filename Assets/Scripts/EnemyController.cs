@@ -7,7 +7,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class EnemyController : MonoBehaviour
 {
     [SerializeField] Health _health;
@@ -18,24 +17,28 @@ public class EnemyController : MonoBehaviour
     [SerializeField] LeanGameObjectPool _pool;
     [SerializeField] Transform _spawBulletPoint;
     [SerializeField] float _speedBullet;
-    [SerializeField] float attackRange;
     private GameObject _bullet;
     private bool isChasing = false;
     private NavMeshAgent _agent;
     float attackInterval = 0;
+    private PlayerController _player;
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
+        _player = GameObject.FindGameObjectWithTag(Common.Player).GetComponent<PlayerController>();
     }
 
     private void Update()
     {
-        if (attackInterval >= 0)
+        if (_player.IsAlive)
         {
-            attackInterval -= Time.deltaTime;
+            if (attackInterval >= 0)
+            {
+                attackInterval -= Time.deltaTime;
+            }
+            Dead();
+            ChasingPlayer();
         }
-        Dead();
-        ChasingPlayer();
     }
 
     private void ChasingPlayer()
@@ -66,16 +69,12 @@ public class EnemyController : MonoBehaviour
     {
         if (_health.Maxhealth <= 0)
         {
+            isChasing = false;
+            _agent.ResetPath();
             Destroy(gameObject);
+            GameManager.Instance.NumberEnemy -= 1;
             SpawDeadEffect();
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag(Common.Bullet))
-        {
-            _health.TakeDame(1);
+            AudioManager.Instance.PlayOneShot("Dead");
         }
     }
 
@@ -86,11 +85,17 @@ public class EnemyController : MonoBehaviour
         _deadEffect.GetComponent<ParticleSystem>().Play();
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(Common.Bullet))
+        {
+            isChasing = true;
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(this.transform.position, _radiusChasing);
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(this.transform.position, attackRange);
     }
 }

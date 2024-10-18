@@ -19,20 +19,18 @@ public class Health : MonoBehaviour
         _healthBar.fillAmount = 1;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
- 
-    }
 
     public void TakeDame(float damage)
     {
         _maxhealth -= damage;
-        _healthBar.fillAmount = _maxhealth / 100f;
-        healthBarUI.SetActive(true);
-        if (healthBarUI.activeSelf)
+        _healthBar.fillAmount = _maxhealth / _health;
+        if (!this.CompareTag(Common.Player))
         {
-            StartCoroutine(HideHealthBarUI());
+            healthBarUI.SetActive(true);
+            if (healthBarUI.activeSelf)
+            {
+                StartCoroutine(HideHealthBarUI());
+            }
         }
     }
 

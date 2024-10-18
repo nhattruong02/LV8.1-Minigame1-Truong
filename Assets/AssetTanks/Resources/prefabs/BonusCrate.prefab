@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 33970306777534601}
   - component: {fileID: 23282247625592381}
   - component: {fileID: 932961338981484022}
+  - component: {fileID: 7883153370117517206}
+  - component: {fileID: 471169233475580147}
+  - component: {fileID: 1811064698031334517}
   m_Layer: 0
   m_Name: 3DAvatar
   m_TagString: Destroyable
@@ -106,6 +109,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.765514, y: 0.76001287, z: 0.7550166}
   m_Center: {x: 0.0012651533, y: -0.0050064176, z: 0.3775083}
+--- !u!114 &7883153370117517206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291559783896873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthBar: {fileID: 4950816665457633951}
+  _maxhealth: 50
+  _health: 50
+  healthBarUI: {fileID: 4950816665279913519}
+--- !u!114 &471169233475580147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291559783896873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 7883153370117517206}
+  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
+--- !u!208 &1811064698031334517
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291559783896873}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.23, y: 0.245, z: 0.37800002}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.001, y: -0.0050000004, z: 0.37800002}
+  m_TimeToStationary: 0.5
 --- !u!1 &1332224165843847
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,10 +258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4206038562809492}
-  - component: {fileID: 8341483293138768609}
-  - component: {fileID: 8138120463229565896}
-  - component: {fileID: 1126492113684529209}
-  m_Layer: 14
+  m_Layer: 7
   m_Name: BonusCrate
   m_TagString: Destroyable
   m_Icon: {fileID: 0}
@@ -237,63 +283,6 @@ Transform:
   - {fileID: 4354247311022841}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!54 &8341483293138768609
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614414011394731}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!114 &8138120463229565896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614414011394731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23b681b93fe47b48898a92da33c4c60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _healthBar: {fileID: 4950816665457633951}
-  _maxhealth: 100
-  _health: 0
-  healthBarUI: {fileID: 4950816665279913519}
---- !u!114 &1126492113684529209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614414011394731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ac23f7a35c9552419ba0dc27cea05f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _health: {fileID: 8138120463229565896}
-  _deadEffect: {fileID: 1064382281384104, guid: 8b0fb01e4fb84774dbf024cf7a3fd4da, type: 3}
 --- !u!1 &1679163399642880
 GameObject:
   m_ObjectHideFlags: 0
